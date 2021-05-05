@@ -10,9 +10,6 @@ plugins {
 allprojects {
     repositories {
         mavenCentral()
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/dokka/dev")
     }
-}
-
-apply {
-    from("dokka.gradle")
 }

@@ -5,6 +5,7 @@ pluginManagement {
     repositories {
         mavenCentral()
         gradlePluginPortal()
+        maven("https://maven.pkg.jetbrains.space/kotlin/p/dokka/dev")
     }
 }
 
@@ -31,3 +32,9 @@ include(":samples:histogram")
 include(":samples:logo")
 include(":samples:table")
 include(":samples:timer")
+
+includeBuild("tools/dokka-mygfm") {
+    dependencySubstitution {
+        substitute(module("com.github.msink.tools:dokka-mygfm")).with(project(":"))
+    }
+}

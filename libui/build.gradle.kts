@@ -3,6 +3,7 @@
 @file:Suppress("SpellCheckingInspection")
 
 import de.undercouch.gradle.tasks.download.Download
+import org.jetbrains.dokka.gradle.DokkaTask
 import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 import org.jetbrains.kotlin.gradle.tasks.CInteropProcess
 import org.jetbrains.kotlin.konan.target.Family
@@ -10,6 +11,7 @@ import org.jetbrains.kotlin.konan.target.KonanTarget.*
 
 plugins {
     kotlin("multiplatform")
+    id("org.jetbrains.dokka")
     id("de.undercouch.download")
     id("maven-publish")
 }
@@ -80,6 +82,27 @@ tasks.withType<CInteropProcess> {
     }
 
     dependsOn(unpackArchive)
+}
+
+tasks.register<DokkaTask>("dokkaMyGfm") {
+    dependencies {
+        plugins("com.github.msink.tools:dokka-mygfm")
+    }
+    dokkaSourceSets {
+        configureEach {
+            if (name == "windowsMain") {
+                suppress.set(true)
+            } else {
+                outputDirectory.set(rootProject.rootDir.resolve("docs"))
+                noStdlibLink.set(true)
+                suppressObviousFunctions.set(true)
+                suppressInheritedMembers.set(false)
+            }
+        }
+    }
+    pluginsMapConfiguration.set(mapOf(
+        "org.jetbrains.dokka.base.DokkaBase" to """{ "separateInheritedMembers": true }"""
+    ))
 }
 
 publishing {
