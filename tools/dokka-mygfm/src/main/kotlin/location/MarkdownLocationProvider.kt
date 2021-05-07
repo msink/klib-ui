@@ -14,5 +14,6 @@ class MarkdownLocationProvider(
         override fun getLocationProvider(pageNode: RootPageNode) =
             MarkdownLocationProvider(pageNode, context)
     }
-}
 
+    override val PAGE_WITH_CHILDREN_SUFFIX = "README"
+}
