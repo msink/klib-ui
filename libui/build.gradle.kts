@@ -38,9 +38,13 @@ kotlin {
         macosX64("macosx")
     }
 
+    val commonMain by sourceSets.getting
+    val nativeMain by sourceSets.creating {
+        dependsOn(commonMain)
+    }
     targets.withType<KotlinNativeTarget> {
         sourceSets["${targetName}Main"].apply {
-            kotlin.srcDir("src/nativeMain/kotlin")
+            dependsOn(nativeMain)
         }
         compilations["main"].apply {
             cinterops.create("libui") {
