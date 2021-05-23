@@ -222,6 +222,7 @@ open class CommonmarkRenderer(
                             }
                         } else if (rowLink.isNotEmpty()) {
                             text = text.replace(rowLink, rowName)
+                            text = text.replace("override fun ", "fun ")
                         }
                     }
                     append(text)
