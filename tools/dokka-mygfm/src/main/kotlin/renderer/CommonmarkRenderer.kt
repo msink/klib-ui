@@ -226,8 +226,8 @@ open class CommonmarkRenderer(
     }
 
     override fun StringBuilder.buildNavigation(page: PageNode) {
-        locationProvider.ancestors(page).asReversed().forEach { node ->
-            append("/")
+        locationProvider.ancestors(page).asReversed().forEachIndexed { i, node ->
+            if (i > 0) append(" / ")
             if (node.isNavigable) buildLink(node, page)
             else append(node.name)
         }
