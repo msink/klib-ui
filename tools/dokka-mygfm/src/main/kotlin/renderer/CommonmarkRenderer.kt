@@ -42,7 +42,7 @@ open class CommonmarkRenderer(
 
     override fun StringBuilder.buildHeader(level: Int, node: ContentHeader, content: StringBuilder.() -> Unit) {
         buildParagraph()
-        append("#".repeat(level) + " ")
+        append("#".repeat(if (level == 1) 1 else level + 1) + " ")
         content()
         buildParagraph()
     }
