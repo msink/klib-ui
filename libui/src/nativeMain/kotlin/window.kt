@@ -2,9 +2,12 @@
 
 package libui.ktx
 
+import cnames.structs.uiWindow
 import kotlinx.cinterop.*
 import libui.*
 import libui.ktx.draw.SizeInt
+import kotlin.contracts.InvocationKind
+import kotlin.contracts.contract
 
 /** Represents a top-level window.
  *  Contains one child control that occupies the entirety of the window. */
@@ -131,6 +134,9 @@ fun appWindow(
     margined: Boolean = true,
     init: Window.() -> Unit = {}
 ) {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
     platform.posix.srand(platform.posix.time(null).toUInt())
 
     memScoped {

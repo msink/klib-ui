@@ -2,17 +2,27 @@
 
 package libui.ktx
 
-import kotlin.reflect.KMutableProperty1
-import kotlin.reflect.KProperty1
+import cnames.structs.uiTable
+import cnames.structs.uiTableModel
 import kotlinx.cinterop.*
 import libui.*
-import libui.ktx.draw.*
+import libui.ktx.draw.Color
+import libui.ktx.draw.Image
+import kotlin.contracts.InvocationKind
+import kotlin.contracts.contract
+import kotlin.reflect.KMutableProperty1
+import kotlin.reflect.KProperty1
 
 /** DSL builder to visualize data in a tabular form. */
 inline fun <T> Container.tableview(
     data: List<T>,
     init: Table<T>.() -> Unit = {}
-): TableView = add(TableView(Table(data).apply(init)))
+): TableView {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(TableView(Table(data).apply(init)))
+}
 
 /** Wrapper class for [uiTable] */
 class TableView(val table: Table<*>) : Control<uiTable>(
@@ -219,6 +229,9 @@ class Table<T>(
     }
 
     fun column(name: String, init: TableColumn.() -> Unit) {
+        contract {
+            callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+        }
         val column = TableColumn().apply(init)
         columns += when {
             column.image != null && column.label != null ->

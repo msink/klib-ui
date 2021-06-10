@@ -1,7 +1,7 @@
+import kotlinx.cinterop.convert
 import libui.*
 import libui.ktx.*
 import libui.ktx.draw.*
-import kotlinx.cinterop.convert
 
 fun AttributedString.append(what: String, attr: Attribute, attr2: Attribute? = null) {
     val start = length
@@ -14,7 +14,7 @@ fun AttributedString.append(what: String, attr: Attribute, attr2: Attribute? = n
 
 fun DrawArea.makeAttributedString() = string(
     "Drawing strings with libui is done with the uiAttributedString and uiDrawTextLayout objects.\n" +
-        "uiAttributedString lets you have a variety of attributes: "
+            "uiAttributedString lets you have a variety of attributes: "
 ).apply {
     append("font family", FamilyAttribute("Courier New"))
     append(", ")
@@ -66,8 +66,8 @@ fun main() = appWindow(
     height = 480
 ) {
     hbox {
-        lateinit var fontButton: FontButton
-        lateinit var align: Combobox
+        val fontButton: FontButton
+        val align: Combobox
         lateinit var area: DrawArea
 
         vbox {

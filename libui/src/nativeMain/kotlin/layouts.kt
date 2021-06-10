@@ -2,8 +2,15 @@
 
 package libui.ktx
 
-import kotlinx.cinterop.*
+import cnames.structs.uiBox
+import cnames.structs.uiForm
+import cnames.structs.uiGrid
+import cnames.structs.uiGroup
+import cnames.structs.uiTab
+import kotlinx.cinterop.CPointer
 import libui.*
+import kotlin.contracts.InvocationKind
+import kotlin.contracts.contract
 
 ///////////////////////////////////////////////////////////////////////////////
 //
@@ -23,9 +30,14 @@ fun Container.group(
     title: String,
     margined: Boolean = true,
     init: Group.() -> Unit = {}
-): Group = add(Group(title)
-    .apply { if (margined) this.margined = margined }
-    .apply(init))
+): Group {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(Group(title)
+        .apply { if (margined) this.margined = margined }
+        .apply(init))
+}
 
 /** Wrapper class for [uiGroup] - a container for a single widget that provide
  *  a caption and visually group it's children. */
@@ -54,17 +66,27 @@ class Group(title: String) : Control<uiGroup>(uiNewGroup(title)), Container {
 inline fun Container.hbox(
     padded: Boolean = true,
     init: HBox.() -> Unit = {}
-): HBox = add(HBox()
-    .apply { if (padded) this.padded = padded }
-    .apply(init))
+): HBox {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(HBox()
+        .apply { if (padded) this.padded = padded }
+        .apply(init))
+}
 
 /** DSL builder for a container that stack its children vertically. */
 inline fun Container.vbox(
     padded: Boolean = true,
     init: VBox.() -> Unit = {}
-): VBox = add(VBox()
-    .apply { if (padded) this.padded = padded }
-    .apply(init))
+): VBox {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(VBox()
+        .apply { if (padded) this.padded = padded }
+        .apply(init))
+}
 
 /** DSL builder for a container that stack its children horizontally. */
 inline val Container.hbox: HBox get() = hbox()
@@ -105,9 +127,14 @@ class VBox : Box(uiNewVerticalBox())
 inline fun Container.form(
     padded: Boolean = true,
     init: Form.() -> Unit = {}
-): Form = add(Form()
-    .apply { if (padded) this.padded = padded }
-    .apply(init))
+): Form {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(Form()
+        .apply { if (padded) this.padded = padded }
+        .apply(init))
+}
 
 /** Wrapper class for [uiForm] - a container that organize children as labeled fields. */
 class Form : Control<uiForm>(uiNewForm()), Container {
@@ -139,15 +166,25 @@ class Form : Control<uiForm>(uiNewForm()), Container {
 /** DSL builder for a container that show each children in a separate tab. */
 inline fun Container.tabpane(
     init: TabPane.() -> Unit = {}
-): TabPane = add(TabPane().apply(init))
+): TabPane {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(TabPane().apply(init))
+}
 
 inline fun TabPane.page(
     label: String,
     margined: Boolean = true,
     init: TabPane.Page.() -> Unit = {}
-): TabPane.Page = Page(label)
-    .apply(init)
-    .apply { if (margined) this.margined = true }
+): TabPane.Page {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return Page(label)
+        .apply(init)
+        .apply { if (margined) this.margined = true }
+}
 
 /** Wrapper class for [uiTab] - a container that show each children in a separate tab. */
 class TabPane : Control<uiTab>(uiNewTab()) {
@@ -191,9 +228,14 @@ class TabPane : Control<uiTab>(uiNewTab()) {
 inline fun Container.gridpane(
     padded: Boolean = true,
     init: GridPane.() -> Unit = {}
-): GridPane = add(GridPane()
-    .apply { if (padded) this.padded = padded }
-    .apply(init))
+): GridPane {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(GridPane()
+        .apply { if (padded) this.padded = padded }
+        .apply(init))
+}
 
 /** Wrapper class for [uiGrid] - a powerful container that allow to specify
  *  size and position of each children. */

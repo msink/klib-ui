@@ -2,8 +2,12 @@
 
 package libui.ktx
 
+import cnames.structs.uiArea
+import cnames.structs.uiDrawContext
 import kotlinx.cinterop.*
 import libui.*
+import kotlin.contracts.InvocationKind
+import kotlin.contracts.contract
 
 typealias DrawContext = uiDrawContext
 typealias AreaDrawParams = uiAreaDrawParams
@@ -13,14 +17,24 @@ typealias AreaMouseEvent = uiAreaMouseEvent
  *  is DPI aware, and has several other useful features. */
 fun Container.drawarea(
     init: DrawArea.() -> Unit = {}
-): DrawArea = add(DrawArea().apply(init))
+): DrawArea {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(DrawArea().apply(init))
+}
 
 /** DSL builder for a canvas with horziontal and vertical scrollbars. */
 fun Container.scrollingarea(
     width: Int,
     height: Int,
     init: ScrollingArea.() -> Unit = {}
-): ScrollingArea = add(ScrollingArea(width, height).apply(init))
+): ScrollingArea {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(ScrollingArea(width, height).apply(init))
+}
 
 /** Wrapper class for [uiArea] - a canvas you can draw on. */
 open class DrawArea(

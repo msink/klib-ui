@@ -6,8 +6,8 @@ fun main() = appWindow(
     height = 200
 ) {
     vbox {
-        lateinit var username: TextField
-        lateinit var password: PasswordField
+        val username: TextField
+        val password: PasswordField
 
         form {
             username = textfield { label = "Username" }

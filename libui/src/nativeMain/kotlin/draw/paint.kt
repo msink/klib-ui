@@ -2,10 +2,15 @@
 
 package libui.ktx.draw
 
-import libui.*
-import libui.ktx.*
+import cnames.structs.uiDrawPath
 import kotlinx.cinterop.*
-import platform.posix.*
+import libui.*
+import libui.ktx.Disposable
+import libui.ktx.DrawArea
+import libui.ktx.DrawContext
+import platform.posix.memset
+import kotlin.contracts.InvocationKind
+import kotlin.contracts.contract
 
 /** Draw a path filled with a color. */
 fun DrawContext.fill(
@@ -13,6 +18,9 @@ fun DrawContext.fill(
     brush: Brush,
     block: Path.() -> Unit
 ) {
+    contract {
+        callsInPlace(block, InvocationKind.EXACTLY_ONCE)
+    }
     val path = Path(mode)
     path.block()
     uiDrawPathEnd(path.ptr)
@@ -21,8 +29,12 @@ fun DrawContext.fill(
 }
 
 /** Draw a path filled with a color. */
-fun DrawContext.fill(brush: Brush, block: Path.() -> Unit) =
-    fill(uiDrawFillModeWinding, brush, block)
+fun DrawContext.fill(brush: Brush, block: Path.() -> Unit) {
+    contract {
+        callsInPlace(block, InvocationKind.EXACTLY_ONCE)
+    }
+    return fill(uiDrawFillModeWinding, brush, block)
+}
 
 /** Draw a path in the context. */
 fun DrawContext.stroke(
@@ -31,6 +43,9 @@ fun DrawContext.stroke(
     stroke: Stroke,
     block: Path.() -> Unit
 ) {
+    contract {
+        callsInPlace(block, InvocationKind.EXACTLY_ONCE)
+    }
     val path = Path(mode)
     path.block()
     uiDrawPathEnd(path.ptr)
@@ -39,11 +54,18 @@ fun DrawContext.stroke(
 }
 
 /** Draw a path in the context. */
-fun DrawContext.stroke(brush: Brush, stroke: Stroke, block: Path.() -> Unit) =
-    stroke(uiDrawFillModeWinding, brush, stroke, block)
+fun DrawContext.stroke(brush: Brush, stroke: Stroke, block: Path.() -> Unit) {
+    contract {
+        callsInPlace(block, InvocationKind.EXACTLY_ONCE)
+    }
+    return stroke(uiDrawFillModeWinding, brush, stroke, block)
+}
 
 /** Apply a different transform matrix to the context. */
 fun DrawContext.transform(block: Matrix.() -> Unit) {
+    contract {
+        callsInPlace(block, InvocationKind.EXACTLY_ONCE)
+    }
     val matrix = Matrix()
     uiDrawMatrixSetIdentity(matrix.ptr)
     matrix.block()
@@ -156,11 +178,15 @@ class Brush : Disposable<uiDrawBrush>(
 ///////////////////////////////////////////////////////////////////////////////
 
 /** Creates a new [Stroke] with lifecycle delegated to [DrawArea]. */
-fun DrawArea.stroke(block: uiDrawStrokeParams.() -> Unit = {}): Stroke =
-    Stroke().also {
+fun DrawArea.stroke(block: uiDrawStrokeParams.() -> Unit = {}): Stroke {
+    contract {
+        callsInPlace(block, InvocationKind.EXACTLY_ONCE)
+    }
+    return Stroke().also {
         disposables.add(it)
         block.invoke(it.ptr.pointed)
     }
+}
 
 /** Describes the stroke to draw with. */
 class Stroke : Disposable<uiDrawStrokeParams>(

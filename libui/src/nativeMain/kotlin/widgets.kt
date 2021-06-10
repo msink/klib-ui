@@ -2,11 +2,28 @@
 
 package libui.ktx
 
+import cnames.structs.uiButton
+import cnames.structs.uiCheckbox
+import cnames.structs.uiColorButton
+import cnames.structs.uiCombobox
+import cnames.structs.uiDateTimePicker
+import cnames.structs.uiEditableCombobox
+import cnames.structs.uiEntry
+import cnames.structs.uiFontButton
+import cnames.structs.uiLabel
+import cnames.structs.uiMultilineEntry
+import cnames.structs.uiProgressBar
+import cnames.structs.uiRadioButtons
+import cnames.structs.uiSeparator
+import cnames.structs.uiSlider
+import cnames.structs.uiSpinbox
 import kotlinx.cinterop.*
 import libui.*
 import libui.ktx.draw.Color
 import libui.ktx.draw.Font
 import platform.posix.*
+import kotlin.contracts.InvocationKind
+import kotlin.contracts.contract
 
 ///////////////////////////////////////////////////////////////////////////////
 //
@@ -41,26 +58,41 @@ import platform.posix.*
 inline fun Container.textfield(
     readonly: Boolean = false,
     init: TextField.() -> Unit = {}
-): TextField = add(TextField()
-    .apply { if (readonly) this.readonly = readonly }
-    .apply(init))
+): TextField {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(TextField()
+        .apply { if (readonly) this.readonly = readonly }
+        .apply(init))
+}
 
 /** DSL builder for a text entry widget that mask the input,
  *  useful to edit passwords or other sensible data. */
 inline fun Container.passwordfield(
     readonly: Boolean = false,
     init: PasswordField.() -> Unit = {}
-): PasswordField = add(PasswordField()
-    .apply { if (readonly) this.readonly = readonly }
-    .apply(init))
+): PasswordField {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(PasswordField()
+        .apply { if (readonly) this.readonly = readonly }
+        .apply(init))
+}
 
 /** DSL builder for a text entry widget to search text. */
 inline fun Container.searchfield(
     readonly: Boolean = false,
     init: SearchField.() -> Unit = {}
-): SearchField = add(SearchField()
-    .apply { if (readonly) this.readonly = readonly }
-    .apply(init))
+): SearchField {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(SearchField()
+        .apply { if (readonly) this.readonly = readonly }
+        .apply(init))
+}
 
 /** Wrapper class for [uiEntry] - a simple single line text entry widget */
 open class TextField internal constructor(alloc: CPointer<uiEntry>?) : Control<uiEntry>(alloc) {
@@ -105,7 +137,12 @@ class SearchField : TextField(uiNewSearchEntry())
 inline fun Container.textarea(
     wrap: Boolean = true,
     init: TextArea.() -> Unit = {}
-): TextArea = add(TextArea(wrap).apply(init))
+): TextArea {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(TextArea(wrap).apply(init))
+}
 
 /** Wrapper class for [uiMultilineEntry] - a multiline plain text editing widget */
 class TextArea(wrap: Boolean = true) : Control<uiMultilineEntry>(
@@ -145,7 +182,12 @@ class TextArea(wrap: Boolean = true) : Control<uiMultilineEntry>(
 inline fun Container.checkbox(
     label: String,
     init: Checkbox.() -> Unit = {}
-): Checkbox = add(Checkbox(label).apply(init))
+): Checkbox {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(Checkbox(label).apply(init))
+}
 
 /** Wrapper class for [uiCheckbox] - a checkbox widget. */
 class Checkbox(label: String) : Control<uiCheckbox>(uiNewCheckbox(label)) {
@@ -179,7 +221,12 @@ class Checkbox(label: String) : Control<uiCheckbox>(uiNewCheckbox(label)) {
 /** DSL builder for a drop down combo box that allow list selection only. */
 inline fun Container.combobox(
     init: Combobox.() -> Unit = {}
-): Combobox = add(Combobox().apply(init))
+): Combobox {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(Combobox().apply(init))
+}
 
 /** Wrapper class for [uiCombobox] - a drop down combo box that allow list selection only. */
 class Combobox : Control<uiCombobox>(uiNewCombobox()) {
@@ -212,7 +259,12 @@ class Combobox : Control<uiCombobox>(uiNewCombobox()) {
 /** DSL builder for a drop down combo box that allow selection from list or free text entry. */
 inline fun Container.editablecombobox(
     init: EditableCombobox.() -> Unit = {}
-): EditableCombobox = add(EditableCombobox().apply(init))
+): EditableCombobox {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(EditableCombobox().apply(init))
+}
 
 /** Wrapper class for [uiEditableCombobox] -
  *  a drop down combo box that allow selection from list or free text entry. */
@@ -248,7 +300,12 @@ inline fun Container.spinbox(
     min: Int,
     max: Int,
     init: Spinbox.() -> Unit = {}
-): Spinbox = add(Spinbox(min, max).apply(init))
+): Spinbox {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(Spinbox(min, max).apply(init))
+}
 
 /** Wrapper class for [uiSpinbox] - an entry widget for numerical values. */
 class Spinbox(min: Int, max: Int) : Control<uiSpinbox>(uiNewSpinbox(min, max)) {
@@ -279,7 +336,12 @@ inline fun Container.slider(
     min: Int,
     max: Int,
     init: Slider.() -> Unit = {}
-): Slider = add(Slider(min, max).apply(init))
+): Slider {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(Slider(min, max).apply(init))
+}
 
 /** Wrapper class for [uiSlider] - an horizontal slide to set numerical values. */
 class Slider(min: Int, max: Int) : Control<uiSlider>(uiNewSlider(min, max)) {
@@ -308,7 +370,12 @@ class Slider(min: Int, max: Int) : Control<uiSlider>(uiNewSlider(min, max)) {
 /** DSL builder for a widget that represent a group of radio options. */
 inline fun Container.radiobuttons(
     init: RadioButtons.() -> Unit = {}
-): RadioButtons = add(RadioButtons().apply(init))
+): RadioButtons {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(RadioButtons().apply(init))
+}
 
 /** Wrapper class for [uiRadioButtons] - a widget that represent a group of radio options. */
 class RadioButtons : Control<uiRadioButtons>(uiNewRadioButtons()) {
@@ -341,17 +408,32 @@ class RadioButtons : Control<uiRadioButtons>(uiNewRadioButtons()) {
 /** DSL builder for a widget to edit date and time. */
 inline fun Container.datetimepicker(
     init: DateTimePicker.() -> Unit = {}
-): DateTimePicker = add(DateTimePicker().apply(init))
+): DateTimePicker {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(DateTimePicker().apply(init))
+}
 
 /** DSL builder for a widget to edit date. */
 inline fun Container.datepicker(
     init: DatePicker.() -> Unit = {}
-): DatePicker = add(DatePicker().apply(init))
+): DatePicker {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(DatePicker().apply(init))
+}
 
 /** DSL builder for a widget to edit time. */
 inline fun Container.timepicker(
     init: TimePicker.() -> Unit = {}
-): TimePicker = add(TimePicker().apply(init))
+): TimePicker {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(TimePicker().apply(init))
+}
 
 /** Wrapper class for [uiDateTimePicker] - a widget to edit date and time. */
 open class DateTimePicker internal constructor(
@@ -418,7 +500,12 @@ class TimePicker : DateTimePicker(uiNewTimePicker()) {
 inline fun Container.label(
     text: String,
     init: Label.() -> Unit = {}
-): Label = add(Label(text).apply(init))
+): Label {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(Label(text).apply(init))
+}
 
 /** Wrapper class for [uiLabel] - a static text label. */
 class Label(text: String) : Control<uiLabel>(uiNewLabel(text)) {
@@ -434,12 +521,22 @@ class Label(text: String) : Control<uiLabel>(uiNewLabel(text)) {
 /** DSL builder for an horizontal line to visually separate widgets. */
 inline fun VBox.separator(
     init: HorizontalSeparator.() -> Unit = {}
-): HorizontalSeparator = add(HorizontalSeparator().apply(init))
+): HorizontalSeparator {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(HorizontalSeparator().apply(init))
+}
 
 /** DSL builder for a vertical line to visually separate widgets. */
 inline fun HBox.separator(
     init: VerticalSeparator.() -> Unit = {}
-): VerticalSeparator = add(VerticalSeparator().apply(init))
+): VerticalSeparator {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(VerticalSeparator().apply(init))
+}
 
 /** Wrapper class for [uiSeparator] */
 abstract class Separator(
@@ -457,7 +554,12 @@ class VerticalSeparator : Separator(uiNewVerticalSeparator())
 /** DSL builder for a progress bar widget. */
 inline fun Container.progressbar(
     init: ProgressBar.() -> Unit = {}
-): ProgressBar = add(ProgressBar().apply(init))
+): ProgressBar {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(ProgressBar().apply(init))
+}
 
 /** Wrapper class for [uiProgressBar] - a progress bar widget. */
 class ProgressBar : Control<uiProgressBar>(uiNewProgressBar()) {
@@ -475,7 +577,12 @@ class ProgressBar : Control<uiProgressBar>(uiNewProgressBar()) {
 inline fun Container.button(
     text: String,
     init: Button.() -> Unit = {}
-): Button = add(Button(text).apply(init))
+): Button {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(Button(text).apply(init))
+}
 
 /** Wrapper class for [uiButton] - a simple button. */
 class Button(text: String) : Control<uiButton>(uiNewButton(text)) {
@@ -504,7 +611,12 @@ class Button(text: String) : Control<uiButton>(uiNewButton(text)) {
 /** DSL builder for a button that opens a color palette popup. */
 inline fun Container.colorbutton(
     init: ColorButton.() -> Unit = {}
-): ColorButton = add(ColorButton().apply(init))
+): ColorButton {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(ColorButton().apply(init))
+}
 
 /** Wrapper class for [uiColorButton] - a button that opens a color palette popup. */
 class ColorButton : Control<uiColorButton>(uiNewColorButton()) {
@@ -542,7 +654,12 @@ class ColorButton : Control<uiColorButton>(uiNewColorButton()) {
 /** DSL builder for a button that allows users to choose a font when they click on it. */
 inline fun Container.fontbutton(
     init: FontButton.() -> Unit = {}
-): FontButton = add(FontButton().apply(init))
+): FontButton {
+    contract {
+        callsInPlace(init, InvocationKind.EXACTLY_ONCE)
+    }
+    return add(FontButton().apply(init))
+}
 
 /** Wrapper class for [uiFontButton] - a button that allows users to choose a font. */
 class FontButton : Control<uiFontButton>(uiNewFontButton()) {
