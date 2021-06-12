@@ -196,16 +196,35 @@ open class CommonmarkRenderer(
             append("|")
             appendNewLine()
 
+            var rowLink = ""
+            var rowName = ""
+
             node.children.forEach { row ->
-                row.children.forEach { cell ->
+                row.children.forEachIndexed { i, cell ->
                     append("| ")
-                    append(buildString { cell.build(this, pageContext) }
+                    var text = buildString { cell.build(this, pageContext) }
                         .trim()
                         .replace("#+ ".toRegex(), "") // Workaround for headers inside tables
                         .replace("\\\n", "\n\n")
                         .replace("\n[\n]+".toRegex(), "<br>")
                         .replace("\n", " ")
-                    )
+                    if (pageContext is ClasslikePageNode || pageContext is PackagePageNode) {
+                        if (i == 0) {
+                            if (text[0] == '[') {
+                                rowName = text.split("[", "]").getOrNull(1) ?: ""
+                                rowLink = text
+                                    .replace("[", "`[`")
+                                    .replace("]", "`]")
+                                    .replace(")", ")`")
+                            } else {
+                                rowLink = ""
+                                rowName = ""
+                            }
+                        } else if (rowLink.isNotEmpty()) {
+                            text = text.replace(rowLink, rowName)
+                        }
+                    }
+                    append(text)
                     append(" ")
                 }
                 append("|")
