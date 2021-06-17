@@ -388,7 +388,8 @@ open class CommonmarkRenderer(
                 }
                 is ContentDRILink -> {
                     val link = locationProvider.resolve(node.address, node.sourceSets, pageContext)
-                    if (link.isNullOrEmpty()) {
+                    val text = buildString { buildText(node.children, pageContext) }
+                    if (link.isNullOrEmpty() || text == "T") {
                         buildGroup(node, pageContext)
                     } else {
                         buildCode()
