@@ -6,7 +6,7 @@
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Color](-color.md) | `fun Color(rgb: Int, alpha: Double = 1.0)`<br>`fun Color(r: Double, g: Double, b: Double, a: Double = 1.0)` |
 

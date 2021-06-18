@@ -8,7 +8,7 @@ Wrapper class for [uiSeparator](../../libui/ui-separator.md)
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Separator](-separator.md) | `fun Separator(alloc: CPointer<`[`uiSeparator`](../../libui/ui-separator.md)`>?)` |
 

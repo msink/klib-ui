@@ -8,7 +8,7 @@ Wrapper class for [uiForm](../../libui/ui-form.md) - a container that organize c
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Form](-form.md) | `fun Form()` |
 

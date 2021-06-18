@@ -8,7 +8,7 @@ Stores information about an attribute in a [AttributedString](../-attributed-str
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Attribute](-attribute.md) | `fun Attribute(alloc: CPointer<`[`uiAttribute`](../../libui/ui-attribute.md)`>?)` |
 

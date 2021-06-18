@@ -8,7 +8,7 @@ Wrapper class for [uiEntry](../../libui/ui-entry.md) - a simple single line text
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [TextField](-text-field.md) | `fun TextField()` |
 

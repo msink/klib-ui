@@ -8,7 +8,7 @@ Wrapper class for [uiSeparator](../../libui/ui-separator.md) - an horizontal lin
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [HorizontalSeparator](-horizontal-separator.md) | `fun HorizontalSeparator()` |
 

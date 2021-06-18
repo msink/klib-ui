@@ -8,7 +8,7 @@ Base class for all GUI controls (widgets).
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Control](-control.md) | `fun <T : CPointed> Control(alloc: CPointer<T>?)` |
 

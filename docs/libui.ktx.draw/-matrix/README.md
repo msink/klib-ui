@@ -8,7 +8,7 @@ Defines a transformation (e.g. rotation, translation)
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Matrix](-matrix.md) | `fun Matrix()` |
 

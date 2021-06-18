@@ -8,7 +8,7 @@ Wrapper class for [uiBox](../../libui/ui-box.md) - a container that stack its ch
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [VBox](-v-box.md) | `fun VBox()` |
 

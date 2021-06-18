@@ -9,7 +9,7 @@ Contains one child control that occupies the entirety of the window.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Window](-window.md) | `fun Window(title: String, width: Int, height: Int, hasMenubar: Boolean = false)` |
 

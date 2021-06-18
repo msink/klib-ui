@@ -8,7 +8,7 @@ Wrapper class for [uiCheckbox](../../libui/ui-checkbox.md) - a checkbox widget.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Checkbox](-checkbox.md) | `fun Checkbox(label: String)` |
 

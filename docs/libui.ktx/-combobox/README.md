@@ -8,7 +8,7 @@ Wrapper class for [uiCombobox](../../libui/ui-combobox.md) - a drop down combo b
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Combobox](-combobox.md) | `fun Combobox()` |
 

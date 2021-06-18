@@ -8,7 +8,7 @@ Defines the color(s) to draw a path with.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Brush](-brush.md) | `fun Brush()` |
 

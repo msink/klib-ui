@@ -8,7 +8,7 @@ Wrapper class for [uiTableModel](../../libui/ui-table-model.md)
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Table](-table.md) | `fun <T> Table(data: List<T>, handler: CPointer<`[`ktTableHandler`](../../libui/kt-table-handler/README.md)`> = nativeHeap.alloc<ktTableHandler>().ptr)` |
 

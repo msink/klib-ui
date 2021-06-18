@@ -9,7 +9,7 @@ size and position of each children.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [GridPane](-grid-pane.md) | `fun GridPane()` |
 

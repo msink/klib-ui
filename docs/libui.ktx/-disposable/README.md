@@ -14,7 +14,7 @@ Base class for all objects that have a holder reference to the native C resource
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Disposable](-disposable.md) | `fun <T : CPointed> Disposable(alloc: CPointer<T>?)` |
 

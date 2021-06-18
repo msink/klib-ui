@@ -8,7 +8,7 @@ Wrapper class for [uiArea](../../libui/ui-area.md) - a canvas with horziontal an
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [ScrollingArea](-scrolling-area.md) | `fun ScrollingArea(width: Int, height: Int, handler: CPointer<`[`ktAreaHandler`](../../libui/kt-area-handler/README.md)`> = nativeHeap.alloc<ktAreaHandler>().ptr, alloc: CPointer<`[`uiArea`](../../libui/ui-area.md)`>? = uiNewScrollingArea(handler.pointed.ui.ptr, width, height))` |
 

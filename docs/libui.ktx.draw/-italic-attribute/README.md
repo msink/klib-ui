@@ -8,7 +8,7 @@ Changes the italic mode of the text it is applied to.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [ItalicAttribute](-italic-attribute.md) | `fun ItalicAttribute(italic: `[`uiTextItalic`](../../libui/ui-text-italic.md)`)` |
 

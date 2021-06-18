@@ -8,7 +8,7 @@ Wrapper class for [uiSeparator](../../libui/ui-separator.md) - a vertical line t
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [VerticalSeparator](-vertical-separator.md) | `fun VerticalSeparator()` |
 

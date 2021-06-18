@@ -8,7 +8,7 @@ Changes the size of the text it is applied to, in typographical points.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [SizeAttribute](-size-attribute.md) | `fun SizeAttribute(size: Double)` |
 

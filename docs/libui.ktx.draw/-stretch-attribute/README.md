@@ -8,7 +8,7 @@ Changes the stretch of the text it is applied to.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [StretchAttribute](-stretch-attribute.md) | `fun StretchAttribute(stretch: `[`uiTextStretch`](../../libui/ui-text-stretch.md)`)` |
 

@@ -8,7 +8,7 @@ Changes the color of the text it is applied to.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [ColorAttribute](-color-attribute.md) | `fun ColorAttribute(color: `[`Color`](../-color/README.md)`)` |
 

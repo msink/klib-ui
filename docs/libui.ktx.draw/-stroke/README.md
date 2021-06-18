@@ -8,7 +8,7 @@ Describes the stroke to draw with.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Stroke](-stroke.md) | `fun Stroke()` |
 

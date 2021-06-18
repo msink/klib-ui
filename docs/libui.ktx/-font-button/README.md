@@ -8,7 +8,7 @@ Wrapper class for [uiFontButton](../../libui/ui-font-button.md) - a button that 
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [FontButton](-font-button.md) | `fun FontButton()` |
 

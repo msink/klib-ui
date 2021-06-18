@@ -9,7 +9,7 @@ a caption and visually group it's children.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Group](-group.md) | `fun Group(title: String)` |
 

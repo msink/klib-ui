@@ -8,7 +8,7 @@ Changes the type of underline on the text it is applied to.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [UnderlineAttribute](-underline-attribute.md) | `fun UnderlineAttribute(u: `[`uiUnderline`](../../libui/ui-underline.md)`)` |
 

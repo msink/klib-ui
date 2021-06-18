@@ -8,7 +8,7 @@ Represents a set of OpenType feature tag-value pairs, for applying OpenType feat
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [OpenTypeFeatures](-open-type-features.md) | `fun OpenTypeFeatures(copy: CPointer<`[`uiOpenTypeFeatures`](../../libui/ui-open-type-features.md)`>? = null)` |
 

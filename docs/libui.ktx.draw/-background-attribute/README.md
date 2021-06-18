@@ -8,7 +8,7 @@ Changes the background color of the text it is applied to.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [BackgroundAttribute](-background-attribute.md) | `fun BackgroundAttribute(color: `[`Color`](../-color/README.md)`)` |
 

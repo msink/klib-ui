@@ -8,7 +8,7 @@ Wrapper class for [uiMultilineEntry](../../libui/ui-multiline-entry.md) - a mult
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [TextArea](-text-area.md) | `fun TextArea(wrap: Boolean = true)` |
 

@@ -8,7 +8,7 @@ Changes the weight of the text it is applied to.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [WeightAttribute](-weight-attribute.md) | `fun WeightAttribute(weight: `[`uiTextWeight`](../../libui/ui-text-weight.md)`)` |
 

@@ -9,7 +9,7 @@ otf is copied you may free it.
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [FeaturesAttribute](-features-attribute.md) | `fun FeaturesAttribute(otf: `[`OpenTypeFeatures`](../-open-type-features/README.md)`)` |
 

@@ -8,7 +8,7 @@ adapter for DSL builders
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Page](-page.md) | `fun Page(label: String)` |
 

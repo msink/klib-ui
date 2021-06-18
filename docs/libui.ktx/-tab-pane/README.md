@@ -8,7 +8,7 @@ Wrapper class for [uiTab](../../libui/ui-tab.md) - a container that show each ch
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [TabPane](-tab-pane.md) | `fun TabPane()` |
 

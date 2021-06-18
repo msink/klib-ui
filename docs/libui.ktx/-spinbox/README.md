@@ -8,7 +8,7 @@ Wrapper class for [uiSpinbox](../../libui/ui-spinbox.md) - an entry widget for n
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [Spinbox](-spinbox.md) | `fun Spinbox(min: Int, max: Int)` |
 

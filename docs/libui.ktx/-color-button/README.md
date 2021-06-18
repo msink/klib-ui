@@ -8,7 +8,7 @@ Wrapper class for [uiColorButton](../../libui/ui-color-button.md) - a button tha
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [ColorButton](-color-button.md) | `fun ColorButton()` |
 

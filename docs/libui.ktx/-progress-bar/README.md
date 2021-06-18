@@ -8,7 +8,7 @@ Wrapper class for [uiProgressBar](../../libui/ui-progress-bar.md) - a progress b
 
 ### Constructors
 
-| Name | Summary |
+| | |
 |---|---|
 | [ProgressBar](-progress-bar.md) | `fun ProgressBar()` |
 
