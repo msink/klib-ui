@@ -4,5 +4,4 @@
 
 `fun item(text: String)`
 
-Adds the named button to the end of the radiobuttons.
-If it is the first button, it is automatically selected.
+Adds the named button to the end of the radiobuttons. If it is the first button, it is automatically selected.

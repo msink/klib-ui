@@ -4,7 +4,4 @@
 
 `fun <T : `[`Control`](../-control/README.md)`<*>> add(widget: T): T`
 
-Overrides [Container.add](../-container/add.md)
-
-Specify the control to show in content area.
-Window can contain only one control, if you need more use layouts like Box or GridPane
+Specify the control to show in content area. Window can contain only one control, if you need more use layouts like Box or GridPane

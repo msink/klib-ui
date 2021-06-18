@@ -4,5 +4,4 @@
 
 `fun item(text: String)`
 
-Adds the named entry to the end of the combobox.
-If it is the first entry, it is automatically selected.
+Adds the named entry to the end of the combobox. If it is the first entry, it is automatically selected.
