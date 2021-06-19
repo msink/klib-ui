@@ -3,5 +3,3 @@
 # Separator
 
 `fun Separator(alloc: CPointer<`[`uiSeparator`](../../libui/ui-separator.md)`>?)`
-
-Wrapper class for [uiSeparator](../../libui/ui-separator.md)

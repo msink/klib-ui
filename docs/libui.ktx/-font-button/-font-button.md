@@ -3,5 +3,3 @@
 # FontButton
 
 `fun FontButton()`
-
-Wrapper class for [uiFontButton](../../libui/ui-font-button.md) - a button that allows users to choose a font.

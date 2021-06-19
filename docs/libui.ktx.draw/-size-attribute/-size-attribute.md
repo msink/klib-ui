@@ -3,5 +3,3 @@
 # SizeAttribute
 
 `fun SizeAttribute(size: Double)`
-
-Changes the size of the text it is applied to, in typographical points.

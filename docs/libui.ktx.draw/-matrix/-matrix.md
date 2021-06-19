@@ -3,5 +3,3 @@
 # Matrix
 
 `fun Matrix()`
-
-Defines a transformation (e.g. rotation, translation)

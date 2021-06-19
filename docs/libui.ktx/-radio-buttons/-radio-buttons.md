@@ -3,5 +3,3 @@
 # RadioButtons
 
 `fun RadioButtons()`
-
-Wrapper class for [uiRadioButtons](../../libui/ui-radio-buttons.md) - a widget that represent a group of radio options.

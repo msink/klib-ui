@@ -3,5 +3,3 @@
 # VerticalSeparator
 
 `fun VerticalSeparator()`
-
-Wrapper class for [uiSeparator](../../libui/ui-separator.md) - a vertical line to visually separate widgets.

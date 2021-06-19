@@ -3,5 +3,3 @@
 # Checkbox
 
 `fun Checkbox(label: String)`
-
-Wrapper class for [uiCheckbox](../../libui/ui-checkbox.md) - a checkbox widget.
