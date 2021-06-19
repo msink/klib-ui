@@ -17,23 +17,23 @@ Wrapper class for [uiCheckbox](../../libui/ui-checkbox.md) - a checkbox widget.
 | Name | Summary |
 |---|---|
 | [label](label.md) | `var label: String`<br>The static text of the checkbox. |
-| [value](value.md) | `var value: Boolean`<br>Whether the checkbox is checked or unchecked. Defaults to `false`. |
+| [value](value.md) | `var value: Boolean`<br>Whether the checkbox is checked or unchecked. |
 
 ### Inherited properties
 
 | Name | Summary |
 |---|---|
 | [disposed](../-disposable/disposed.md) | `val disposed: Boolean`<br>Returns `true` if object was disposed - in this case [dispose](../-disposable/dispose.md) will do nothing, all other operations are invalid and will `throw Error("Resource is disposed")`. |
-| [enabled](../-control/enabled.md) | `var enabled: Boolean`<br>Whether the Control should be enabled or disabled. Defaults to `true`. |
+| [enabled](../-control/enabled.md) | `var enabled: Boolean`<br>Whether the Control should be enabled or disabled. |
 | [parent](../-control/parent.md) | `var parent: `[`Control`](../-control/README.md)`<*>?`<br>Returns parent of the control or `null` for detached. |
 | [toplevel](../-control/toplevel.md) | `val toplevel: Boolean`<br>Returns whether the control is a top level one or not. |
-| [visible](../-control/visible.md) | `var visible: Boolean`<br>Whether the Control should be visible or hidden. Defaults to `true`. |
+| [visible](../-control/visible.md) | `var visible: Boolean`<br>Whether the Control should be visible or hidden. |
 
 ### Functions
 
 | Name | Summary |
 |---|---|
-| [action](action.md) | `fun action(block: Checkbox.() -> Unit)`<br>Function to be run when the user clicks the Checkbox. Only one function can be registered at a time. |
+| [action](action.md) | `fun action(block: Checkbox.() -> Unit)`<br>Function to be run when the user clicks the Checkbox. |
 
 ### Inherited functions
 
@@ -43,7 +43,7 @@ Wrapper class for [uiCheckbox](../../libui/ui-checkbox.md) - a checkbox widget.
 | [dispose](../-control/dispose.md) | `open fun dispose()`<br>Dispose and free all allocated resources. |
 | [enable](../-control/enable.md) | `fun enable()`<br>Enables the Control. |
 | [getHandle](../-control/get-handle.md) | `fun getHandle(): ULong`<br>Returns the OS-level handle associated with this Control. |
-| [hide](../-control/hide.md) | `fun hide()`<br>Hides the Control. Hidden controls do not participate in layout (that is, Box, GridPane, etc. does not reserve space for hidden controls). |
+| [hide](../-control/hide.md) | `fun hide()`<br>Hides the Control. |
 | [isEnabled](../-control/is-enabled.md) | `fun isEnabled(): Boolean`<br>Whether the Control is enabled. |
 | [isEnabledToUser](../-control/is-enabled-to-user.md) | `fun isEnabledToUser(): Boolean`<br>Whether the Control and all parents are enabled. |
 | [isVisible](../-control/is-visible.md) | `fun isVisible(): Boolean`<br>Whether the Control is visible. |

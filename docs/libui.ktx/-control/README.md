@@ -16,10 +16,10 @@ Base class for all GUI controls (widgets).
 
 | Name | Summary |
 |---|---|
-| [enabled](enabled.md) | `var enabled: Boolean`<br>Whether the Control should be enabled or disabled. Defaults to `true`. |
+| [enabled](enabled.md) | `var enabled: Boolean`<br>Whether the Control should be enabled or disabled. |
 | [parent](parent.md) | `var parent: Control<*>?`<br>Returns parent of the control or `null` for detached. |
 | [toplevel](toplevel.md) | `val toplevel: Boolean`<br>Returns whether the control is a top level one or not. |
-| [visible](visible.md) | `var visible: Boolean`<br>Whether the Control should be visible or hidden. Defaults to `true`. |
+| [visible](visible.md) | `var visible: Boolean`<br>Whether the Control should be visible or hidden. |
 
 ### Inherited properties
 
@@ -35,7 +35,7 @@ Base class for all GUI controls (widgets).
 | [dispose](dispose.md) | `open fun dispose()`<br>Dispose and free all allocated resources. |
 | [enable](enable.md) | `fun enable()`<br>Enables the Control. |
 | [getHandle](get-handle.md) | `fun getHandle(): ULong`<br>Returns the OS-level handle associated with this Control. |
-| [hide](hide.md) | `fun hide()`<br>Hides the Control. Hidden controls do not participate in layout (that is, Box, GridPane, etc. does not reserve space for hidden controls). |
+| [hide](hide.md) | `fun hide()`<br>Hides the Control. |
 | [isEnabled](is-enabled.md) | `fun isEnabled(): Boolean`<br>Whether the Control is enabled. |
 | [isEnabledToUser](is-enabled-to-user.md) | `fun isEnabledToUser(): Boolean`<br>Whether the Control and all parents are enabled. |
 | [isVisible](is-visible.md) | `fun isVisible(): Boolean`<br>Whether the Control is visible. |

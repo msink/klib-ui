@@ -29,10 +29,10 @@ Represents a string of UTF-8 text that can be embellished with formatting attrib
 
 | Name | Summary |
 |---|---|
-| [append](append.md) | `fun append(str: String)`<br>Adds the '\\0'-terminated UTF-8 string `str` to the end. The new substring will be unattributed. |
+| [append](append.md) | `fun append(str: String)`<br>Adds the '\\0'-terminated UTF-8 string `str` to the end. |
 | [delete](delete.md) | `fun delete(start: Int, end: Int)`<br>Deletes the characters and attributes in the byte range \[`start`, `end`). |
-| [insert](insert.md) | `fun insert(str: String, at: Int)`<br>Adds the '\\0'-terminated UTF-8 string `str` at the byte position specified by `at`. The new substring will be unattributed existing attributes will be moved along with their text. |
-| [setAttribute](set-attribute.md) | `fun setAttribute(a: `[`Attribute`](../-attribute/README.md)`, start: Int, end: Int)`<br>Sets a in the byte range \[`start`, `end`). Any existing attributes in that byte range of the same type are removed. Takes ownership of `a` you should not use it after `setAttribute()` returns. |
+| [insert](insert.md) | `fun insert(str: String, at: Int)`<br>Adds the '\\0'-terminated UTF-8 string `str` at the byte position specified by `at`. |
+| [setAttribute](set-attribute.md) | `fun setAttribute(a: `[`Attribute`](../-attribute/README.md)`, start: Int, end: Int)`<br>Sets a in the byte range \[`start`, `end`). |
 
 ### Inherited functions
 

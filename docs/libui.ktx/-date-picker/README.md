@@ -27,7 +27,7 @@ Wrapper class for [uiDateTimePicker](../../libui/ui-date-time-picker.md) - a wid
 
 | Name | Summary |
 |---|---|
-| [action](../-date-time-picker/action.md) | `fun action(block: `[`DateTimePicker`](../-date-time-picker/README.md)`.() -> Unit)`<br>Function to be run when the user makes a change to the Picker. Only one function can be registered at a time. |
+| [action](../-date-time-picker/action.md) | `fun action(block: `[`DateTimePicker`](../-date-time-picker/README.md)`.() -> Unit)`<br>Function to be run when the user makes a change to the Picker. |
 | [disable](../-control/disable.md) | `fun disable()`<br>Disables the Control. |
 | [dispose](../-control/dispose.md) | `open fun dispose()`<br>Dispose and free all allocated resources. |
 | [enable](../-control/enable.md) | `fun enable()`<br>Enables the Control. |
