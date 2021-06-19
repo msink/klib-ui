@@ -2,8 +2,6 @@
 
 # dispose
 
-`open fun dispose()`
-
-Overrides [Disposable.dispose](../-disposable/dispose.md)
+`open override fun dispose()`
 
 Dispose and free all allocated resources.

@@ -2,6 +2,4 @@
 
 # add
 
-`fun <T : `[`Control`](../../-control/README.md)`<*>> add(widget: T): T`
-
-Overrides [Container.add](../../-container/add.md)
+`open override fun <T : `[`Control`](../../-control/README.md)`<*>> add(widget: T): T`
