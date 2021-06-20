@@ -46,7 +46,7 @@ Wrapper class for [uiTableModel](../../libui/ui-table-model.md)
 |---|---|
 | [dispose](../-disposable/dispose.md) | `open fun dispose()`<br>Dispose and free all allocated native resources. |
 
-### Extension functions
+### Extensions
 
 | Name | Summary |
 |---|---|

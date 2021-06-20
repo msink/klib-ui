@@ -48,11 +48,3 @@ Wrapper class for [uiArea](../../libui/ui-area.md) - a canvas with horziontal an
 | [mouseEvent](../-draw-area/mouse-event.md) | `fun mouseEvent(block: `[`DrawArea`](../-draw-area/README.md)`.(`[`AreaMouseEvent`](../-area-mouse-event.md)`) -> Unit)`<br>Funcion to be run when the mouse was moved or clicked over the area with [AreaMouseEvent](../-area-mouse-event.md) as parameter. |
 | [redraw](../-draw-area/redraw.md) | `fun redraw()`<br>Queues the entire DrawArea for redraw. |
 | [show](../-control/show.md) | `fun show()`<br>Shows the Control. |
-
-### Extension functions
-
-| Name | Summary |
-|---|---|
-| [brush](../../libui.ktx.draw/brush.md) | `fun `[`DrawArea`](../-draw-area/README.md)`.brush(): `[`Brush`](../../libui.ktx.draw/-brush/README.md)<br>Creates a new [Brush](../../libui.ktx.draw/-brush/README.md) with lifecycle delegated to [DrawArea](../-draw-area/README.md). |
-| [string](../../libui.ktx.draw/string.md) | `fun `[`DrawArea`](../-draw-area/README.md)`.string(init: String): `[`AttributedString`](../../libui.ktx.draw/-attributed-string/README.md)<br>Creates a new [AttributedString](../../libui.ktx.draw/-attributed-string/README.md) from initial String. The string will be entirely unattributed. |
-| [stroke](../../libui.ktx.draw/stroke.md) | `fun `[`DrawArea`](../-draw-area/README.md)`.stroke(block: `[`uiDrawStrokeParams`](../../libui/ui-draw-stroke-params/README.md)`.() -> Unit = {}): `[`Stroke`](../../libui.ktx.draw/-stroke/README.md)<br>Creates a new [Stroke](../../libui.ktx.draw/-stroke/README.md) with lifecycle delegated to [DrawArea](../-draw-area/README.md). |

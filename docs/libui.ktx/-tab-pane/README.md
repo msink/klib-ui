@@ -58,7 +58,7 @@ Wrapper class for [uiTab](../../libui/ui-tab.md) - a container that show each ch
 | [isVisible](../-control/is-visible.md) | `fun isVisible(): Boolean`<br>Whether the Control is visible. |
 | [show](../-control/show.md) | `fun show()`<br>Shows the Control. |
 
-### Extension functions
+### Extensions
 
 | Name | Summary |
 |---|---|
