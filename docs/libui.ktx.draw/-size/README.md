@@ -4,12 +4,6 @@
 
 `data class Size(width: Double, height: Double)`
 
-### Constructors
-
-| Name | Summary |
-|---|---|
-| [Size](-size.md) | `fun Size(width: Double, height: Double)` |
-
 ### Properties
 
 | Name | Summary |

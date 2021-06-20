@@ -4,12 +4,6 @@
 
 `data class Point(x: Double, y: Double)`
 
-### Constructors
-
-| Name | Summary |
-|---|---|
-| [Point](-point.md) | `fun Point(x: Double, y: Double)` |
-
 ### Properties
 
 | Name | Summary |

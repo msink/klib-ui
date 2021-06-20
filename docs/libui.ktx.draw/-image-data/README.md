@@ -4,12 +4,6 @@
 
 `class ImageData(width: Int, height: Int, stride: Int, pixels: CValuesRef<UIntVar>)`
 
-### Constructors
-
-| Name | Summary |
-|---|---|
-| [ImageData](-image-data.md) | `fun ImageData(width: Int, height: Int, stride: Int, pixels: CValuesRef<UIntVar>)` |
-
 ### Properties
 
 | Name | Summary |

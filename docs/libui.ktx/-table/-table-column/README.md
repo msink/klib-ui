@@ -2,13 +2,7 @@
 
 # TableColumn
 
-`inner class TableColumn<T>`
-
-### Constructors
-
-| Name | Summary |
-|---|---|
-| [TableColumn](-table-column.md) | `fun TableColumn()` |
+`inner class TableColumn`
 
 ### Functions
 

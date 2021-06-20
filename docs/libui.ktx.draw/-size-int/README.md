@@ -4,12 +4,6 @@
 
 `data class SizeInt(width: Int, height: Int)`
 
-### Constructors
-
-| Name | Summary |
-|---|---|
-| [SizeInt](-size-int.md) | `fun SizeInt(width: Int, height: Int)` |
-
 ### Properties
 
 | Name | Summary |

@@ -4,12 +4,6 @@
 
 `class Image(width: Double, height: Double) : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiImage`](../../libui/ui-image.md)`> `
 
-### Constructors
-
-| Name | Summary |
-|---|---|
-| [Image](-image.md) | `fun Image(width: Double, height: Double)` |
-
 ### Inherited properties
 
 | Name | Summary |
@@ -22,7 +16,7 @@
 |---|---|
 | [dispose](../../libui.ktx/-disposable/dispose.md) | `open fun dispose()`<br>Dispose and free all allocated native resources. |
 
-### Extension functions
+### Extensions
 
 | Name | Summary |
 |---|---|
