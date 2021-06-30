@@ -10,7 +10,7 @@ Wrapper class for [uiForm](../../libui/ui-form.md) - a container that organize c
 
 | Name | Summary |
 |---|---|
-| [Form](-form.md) | `Form()` |
+| [Form](-form.md) | `fun Form()` |
 
 ### Properties
 
@@ -34,7 +34,7 @@ Wrapper class for [uiForm](../../libui/ui-form.md) - a container that organize c
 
 | Name | Summary |
 |---|---|
-| [add](add.md) | `fun <T : `[`Control`](../-control/README.md)`<*>> add(widget: T): T`<br>Adds the given widget to the end of the form. |
+| [add](add.md) | `open fun <T : `[`Control`](../-control/README.md)`<*>> add(widget: T): T`<br>Adds the given widget to the end of the form. |
 | [delete](delete.md) | `fun delete(index: Int)`<br>deletes the nth control of the form. |
 
 ### Inherited functions

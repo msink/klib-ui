@@ -11,7 +11,7 @@ useful to edit passwords or other sensible data.
 
 | Name | Summary |
 |---|---|
-| [PasswordField](-password-field.md) | `PasswordField()` |
+| [PasswordField](-password-field.md) | `fun PasswordField()` |
 
 ### Inherited properties
 

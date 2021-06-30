@@ -10,7 +10,7 @@ Changes the stretch of the text it is applied to.
 
 | Name | Summary |
 |---|---|
-| [StretchAttribute](-stretch-attribute.md) | `StretchAttribute(stretch: `[`uiTextStretch`](../../libui/ui-text-stretch.md)`)` |
+| [StretchAttribute](-stretch-attribute.md) | `fun StretchAttribute(stretch: `[`uiTextStretch`](../../libui/ui-text-stretch.md)`)` |
 
 ### Properties
 

@@ -2,4 +2,4 @@
 
 # DateTimePicker
 
-`DateTimePicker()`
+`fun DateTimePicker()`

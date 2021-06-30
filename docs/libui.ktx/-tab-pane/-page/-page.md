@@ -2,6 +2,6 @@
 
 # Page
 
-`Page(label: String)`
+`fun Page(label: String)`
 
 adapter for DSL builders

@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [Size](-size.md) | `Size(width: Double, height: Double)` |
+| [Size](-size.md) | `fun Size(width: Double, height: Double)` |
 
 ### Properties
 

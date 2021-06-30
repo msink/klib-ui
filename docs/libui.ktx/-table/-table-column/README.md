@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [TableColumn](-table-column.md) | `TableColumn()` |
+| [TableColumn](-table-column.md) | `fun TableColumn()` |
 
 ### Functions
 

@@ -11,7 +11,7 @@ Contains one child control that occupies the entirety of the window.
 
 | Name | Summary |
 |---|---|
-| [Window](-window.md) | `Window(title: String, width: Int, height: Int, hasMenubar: Boolean = false)` |
+| [Window](-window.md) | `fun Window(title: String, width: Int, height: Int, hasMenubar: Boolean = false)` |
 
 ### Properties
 
@@ -37,7 +37,7 @@ Contains one child control that occupies the entirety of the window.
 
 | Name | Summary |
 |---|---|
-| [add](add.md) | `fun <T : `[`Control`](../-control/README.md)`<*>> add(widget: T): T`<br>Specify the control to show in content area. |
+| [add](add.md) | `open fun <T : `[`Control`](../-control/README.md)`<*>> add(widget: T): T`<br>Specify the control to show in content area. |
 | [onClose](on-close.md) | `fun onClose(block: Window.() -> Boolean)`<br>Function to be run when the user clicks the Window's close button. |
 | [onResize](on-resize.md) | `fun onResize(block: Window.() -> Unit)`<br>Function to be run when window content size change. |
 

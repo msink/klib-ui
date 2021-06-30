@@ -10,7 +10,7 @@ Wrapper class for [uiRadioButtons](../../libui/ui-radio-buttons.md) - a widget t
 
 | Name | Summary |
 |---|---|
-| [RadioButtons](-radio-buttons.md) | `RadioButtons()` |
+| [RadioButtons](-radio-buttons.md) | `fun RadioButtons()` |
 
 ### Properties
 

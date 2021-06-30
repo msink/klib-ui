@@ -10,7 +10,7 @@ Wrapper class for [uiSeparator](../../libui/ui-separator.md) - an horizontal lin
 
 | Name | Summary |
 |---|---|
-| [HorizontalSeparator](-horizontal-separator.md) | `HorizontalSeparator()` |
+| [HorizontalSeparator](-horizontal-separator.md) | `fun HorizontalSeparator()` |
 
 ### Inherited properties
 

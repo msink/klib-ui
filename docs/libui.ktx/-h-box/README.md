@@ -10,7 +10,7 @@ Wrapper class for [uiBox](../../libui/ui-box.md) - a container that stack its ch
 
 | Name | Summary |
 |---|---|
-| [HBox](-h-box.md) | `HBox()` |
+| [HBox](-h-box.md) | `fun HBox()` |
 
 ### Inherited properties
 
@@ -70,7 +70,7 @@ Wrapper class for [uiBox](../../libui/ui-box.md) - a container that stack its ch
 | [radiobuttons](../radiobuttons.md) | `fun `[`Container`](../-container/README.md)`.radiobuttons(init: `[`RadioButtons`](../-radio-buttons/README.md)`.() -> Unit = {}): `[`RadioButtons`](../-radio-buttons/README.md)<br>DSL builder for a widget that represent a group of radio options. |
 | [scrollingarea](../scrollingarea.md) | `fun `[`Container`](../-container/README.md)`.scrollingarea(width: Int, height: Int, init: `[`ScrollingArea`](../-scrolling-area/README.md)`.() -> Unit = {}): `[`ScrollingArea`](../-scrolling-area/README.md)<br>DSL builder for a canvas with horziontal and vertical scrollbars. |
 | [searchfield](../searchfield.md) | `fun `[`Container`](../-container/README.md)`.searchfield(readonly: Boolean = false, init: `[`SearchField`](../-search-field/README.md)`.() -> Unit = {}): `[`SearchField`](../-search-field/README.md)<br>DSL builder for a text entry widget to search text. |
-| [separator](../separator.md) | `fun HBox.separator(init: `[`VerticalSeparator`](../-vertical-separator/README.md)`.() -> Unit = {}): `[`VerticalSeparator`](../-vertical-separator/README.md)<br>DSL builder for a vertical line to visually separate widgets. |
+| [separator](../separator.md) | `inline fun HBox.separator(init: `[`VerticalSeparator`](../-vertical-separator/README.md)`.() -> Unit = {}): `[`VerticalSeparator`](../-vertical-separator/README.md)<br>DSL builder for a vertical line to visually separate widgets. |
 | [slider](../slider.md) | `fun `[`Container`](../-container/README.md)`.slider(min: Int, max: Int, init: `[`Slider`](../-slider/README.md)`.() -> Unit = {}): `[`Slider`](../-slider/README.md)<br>DSL builder for an horizontal slide to set numerical values. |
 | [spinbox](../spinbox.md) | `fun `[`Container`](../-container/README.md)`.spinbox(min: Int, max: Int, init: `[`Spinbox`](../-spinbox/README.md)`.() -> Unit = {}): `[`Spinbox`](../-spinbox/README.md)<br>DSL builder for an entry widget for numerical values. |
 | [tableview](../tableview.md) | `fun <T> `[`Container`](../-container/README.md)`.tableview(data: List<T>, init: `[`Table`](../-table/README.md)`<T>.() -> Unit = {}): `[`TableView`](../-table-view/README.md)<br>DSL builder to visualize data in a tabular form. |

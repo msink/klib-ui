@@ -10,7 +10,7 @@ Changes the background color of the text it is applied to.
 
 | Name | Summary |
 |---|---|
-| [BackgroundAttribute](-background-attribute.md) | `BackgroundAttribute(color: `[`Color`](../-color/README.md)`)` |
+| [BackgroundAttribute](-background-attribute.md) | `fun BackgroundAttribute(color: `[`Color`](../-color/README.md)`)` |
 
 ### Inherited properties
 

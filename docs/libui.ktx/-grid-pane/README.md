@@ -11,7 +11,7 @@ size and position of each children.
 
 | Name | Summary |
 |---|---|
-| [GridPane](-grid-pane.md) | `GridPane()` |
+| [GridPane](-grid-pane.md) | `fun GridPane()` |
 
 ### Properties
 
@@ -41,7 +41,7 @@ size and position of each children.
 
 | Name | Summary |
 |---|---|
-| [add](add.md) | `fun <T : `[`Control`](../-control/README.md)`<*>> add(widget: T): T`<br>Adds the given widget to the end of the form. |
+| [add](add.md) | `open fun <T : `[`Control`](../-control/README.md)`<*>> add(widget: T): T`<br>Adds the given widget to the end of the form. |
 | [insert](insert.md) | `fun insert(widget: `[`Control`](../-control/README.md)`<*>, existing: `[`Control`](../-control/README.md)`<*>, at: `[`uiAt`](../../libui/ui-at.md)`)`<br>Insert the given Control after existing Control. |
 | [row](row.md) | `fun row()` |
 

@@ -10,7 +10,7 @@ Wrapper class for [uiFontButton](../../libui/ui-font-button.md) - a button that 
 
 | Name | Summary |
 |---|---|
-| [FontButton](-font-button.md) | `FontButton()` |
+| [FontButton](-font-button.md) | `fun FontButton()` |
 
 ### Properties
 

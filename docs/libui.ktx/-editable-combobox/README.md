@@ -11,7 +11,7 @@ a drop down combo box that allow selection from list or free text entry.
 
 | Name | Summary |
 |---|---|
-| [EditableCombobox](-editable-combobox.md) | `EditableCombobox()` |
+| [EditableCombobox](-editable-combobox.md) | `fun EditableCombobox()` |
 
 ### Properties
 

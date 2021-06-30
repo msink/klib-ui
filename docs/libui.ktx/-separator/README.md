@@ -10,7 +10,7 @@ Wrapper class for [uiSeparator](../../libui/ui-separator.md)
 
 | Name | Summary |
 |---|---|
-| [Separator](-separator.md) | `Separator(alloc: CPointer<`[`uiSeparator`](../../libui/ui-separator.md)`>?)` |
+| [Separator](-separator.md) | `fun Separator(alloc: CPointer<`[`uiSeparator`](../../libui/ui-separator.md)`>?)` |
 
 ### Inherited properties
 

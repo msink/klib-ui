@@ -10,7 +10,7 @@ Changes the color of the text it is applied to.
 
 | Name | Summary |
 |---|---|
-| [ColorAttribute](-color-attribute.md) | `ColorAttribute(color: `[`Color`](../-color/README.md)`)` |
+| [ColorAttribute](-color-attribute.md) | `fun ColorAttribute(color: `[`Color`](../-color/README.md)`)` |
 
 ### Properties
 

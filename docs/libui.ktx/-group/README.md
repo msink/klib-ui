@@ -11,7 +11,7 @@ a caption and visually group it's children.
 
 | Name | Summary |
 |---|---|
-| [Group](-group.md) | `Group(title: String)` |
+| [Group](-group.md) | `fun Group(title: String)` |
 
 ### Properties
 
@@ -34,7 +34,7 @@ a caption and visually group it's children.
 
 | Name | Summary |
 |---|---|
-| [add](add.md) | `fun <T : `[`Control`](../-control/README.md)`<*>> add(widget: T): T`<br>Set the child widget of the Group. |
+| [add](add.md) | `open fun <T : `[`Control`](../-control/README.md)`<*>> add(widget: T): T`<br>Set the child widget of the Group. |
 
 ### Inherited functions
 

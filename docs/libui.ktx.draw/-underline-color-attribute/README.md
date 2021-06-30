@@ -10,7 +10,7 @@ Changes the color of the underline on the text it is applied to.
 
 | Name | Summary |
 |---|---|
-| [UnderlineColorAttribute](-underline-color-attribute.md) | `UnderlineColorAttribute(kind: `[`uiUnderlineColor`](../../libui/ui-underline-color.md)`, color: `[`Color`](../-color/README.md)`)` |
+| [UnderlineColorAttribute](-underline-color-attribute.md) | `fun UnderlineColorAttribute(kind: `[`uiUnderlineColor`](../../libui/ui-underline-color.md)`, color: `[`Color`](../-color/README.md)`)` |
 
 ### Properties
 

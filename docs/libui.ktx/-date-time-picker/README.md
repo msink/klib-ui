@@ -10,7 +10,7 @@ Wrapper class for [uiDateTimePicker](../../libui/ui-date-time-picker.md) - a wid
 
 | Name | Summary |
 |---|---|
-| [DateTimePicker](-date-time-picker.md) | `DateTimePicker()` |
+| [DateTimePicker](-date-time-picker.md) | `fun DateTimePicker()` |
 
 ### Properties
 

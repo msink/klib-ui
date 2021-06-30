@@ -10,7 +10,7 @@ Represent a path that could be drawed on a [DrawContext](../../libui.ktx/-draw-c
 
 | Name | Summary |
 |---|---|
-| [Path](-path.md) | `Path(mode: `[`uiDrawFillMode`](../../libui/ui-draw-fill-mode.md)`)` |
+| [Path](-path.md) | `fun Path(mode: `[`uiDrawFillMode`](../../libui/ui-draw-fill-mode.md)`)` |
 
 ### Inherited properties
 

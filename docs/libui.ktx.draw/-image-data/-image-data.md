@@ -2,4 +2,4 @@
 
 # ImageData
 
-`ImageData(width: Int, height: Int, stride: Int, pixels: CValuesRef<UIntVar>)`
+`fun ImageData(width: Int, height: Int, stride: Int, pixels: CValuesRef<UIntVar>)`

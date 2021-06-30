@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [ImageData](-image-data.md) | `ImageData(width: Int, height: Int, stride: Int, pixels: CValuesRef<UIntVar>)` |
+| [ImageData](-image-data.md) | `fun ImageData(width: Int, height: Int, stride: Int, pixels: CValuesRef<UIntVar>)` |
 
 ### Properties
 

@@ -10,7 +10,7 @@ Stores information about an attribute in a [AttributedString](../-attributed-str
 
 | Name | Summary |
 |---|---|
-| [Attribute](-attribute.md) | `Attribute(alloc: CPointer<`[`uiAttribute`](../../libui/ui-attribute.md)`>?)` |
+| [Attribute](-attribute.md) | `fun Attribute(alloc: CPointer<`[`uiAttribute`](../../libui/ui-attribute.md)`>?)` |
 
 ### Properties
 

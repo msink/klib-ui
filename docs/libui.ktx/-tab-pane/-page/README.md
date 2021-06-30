@@ -10,7 +10,7 @@ adapter for DSL builders
 
 | Name | Summary |
 |---|---|
-| [Page](-page.md) | `Page(label: String)` |
+| [Page](-page.md) | `fun Page(label: String)` |
 
 ### Properties
 
@@ -23,4 +23,4 @@ adapter for DSL builders
 
 | Name | Summary |
 |---|---|
-| [add](add.md) | `fun <T : `[`Control`](../../-control/README.md)`<*>> add(widget: T): T` |
+| [add](add.md) | `open fun <T : `[`Control`](../../-control/README.md)`<*>> add(widget: T): T` |

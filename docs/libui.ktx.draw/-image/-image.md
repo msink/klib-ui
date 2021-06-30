@@ -2,4 +2,4 @@
 
 # Image
 
-`Image(width: Double, height: Double)`
+`fun Image(width: Double, height: Double)`

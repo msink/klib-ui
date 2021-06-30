@@ -10,7 +10,7 @@ Wrapper class for [uiTab](../../libui/ui-tab.md) - a container that show each ch
 
 | Name | Summary |
 |---|---|
-| [TabPane](-tab-pane.md) | `TabPane()` |
+| [TabPane](-tab-pane.md) | `fun TabPane()` |
 
 ### Types
 
@@ -62,4 +62,4 @@ Wrapper class for [uiTab](../../libui/ui-tab.md) - a container that show each ch
 
 | Name | Summary |
 |---|---|
-| [page](../page.md) | `fun TabPane.page(label: String, margined: Boolean = true, init: `[`TabPane.Page`](-page/README.md)`.() -> Unit = {}): `[`TabPane.Page`](-page/README.md) |
+| [page](../page.md) | `inline fun TabPane.page(label: String, margined: Boolean = true, init: `[`TabPane.Page`](-page/README.md)`.() -> Unit = {}): `[`TabPane.Page`](-page/README.md) |

@@ -8,7 +8,7 @@
 
 | Name | Summary |
 |---|---|
-| [Image](-image.md) | `Image(width: Double, height: Double)` |
+| [Image](-image.md) | `fun Image(width: Double, height: Double)` |
 
 ### Inherited properties
 

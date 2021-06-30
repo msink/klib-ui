@@ -2,4 +2,4 @@
 
 # Point
 
-`Point(x: Double, y: Double)`
+`fun Point(x: Double, y: Double)`

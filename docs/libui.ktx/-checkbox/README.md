@@ -10,7 +10,7 @@ Wrapper class for [uiCheckbox](../../libui/ui-checkbox.md) - a checkbox widget.
 
 | Name | Summary |
 |---|---|
-| [Checkbox](-checkbox.md) | `Checkbox(label: String)` |
+| [Checkbox](-checkbox.md) | `fun Checkbox(label: String)` |
 
 ### Properties
 

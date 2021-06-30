@@ -10,7 +10,7 @@ Changes the italic mode of the text it is applied to.
 
 | Name | Summary |
 |---|---|
-| [ItalicAttribute](-italic-attribute.md) | `ItalicAttribute(italic: `[`uiTextItalic`](../../libui/ui-text-italic.md)`)` |
+| [ItalicAttribute](-italic-attribute.md) | `fun ItalicAttribute(italic: `[`uiTextItalic`](../../libui/ui-text-italic.md)`)` |
 
 ### Properties
 

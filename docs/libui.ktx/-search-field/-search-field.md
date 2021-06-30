@@ -2,6 +2,6 @@
 
 # SearchField
 
-`SearchField()`
+`fun SearchField()`
 
 Wrapper class for [uiEntry](../../libui/ui-entry.md) - a text entry widget to search text.

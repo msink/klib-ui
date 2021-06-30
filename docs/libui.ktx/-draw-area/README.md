@@ -10,7 +10,7 @@ Wrapper class for [uiArea](../../libui/ui-area.md) - a canvas you can draw on.
 
 | Name | Summary |
 |---|---|
-| [DrawArea](-draw-area.md) | `DrawArea(handler: CPointer<`[`ktAreaHandler`](../../libui/kt-area-handler/README.md)`> = nativeHeap.alloc<ktAreaHandler>().ptr, alloc: CPointer<`[`uiArea`](../../libui/ui-area.md)`>? = uiNewArea(handler.pointed.ui.ptr))` |
+| [DrawArea](-draw-area.md) | `fun DrawArea(handler: CPointer<`[`ktAreaHandler`](../../libui/kt-area-handler/README.md)`> = nativeHeap.alloc<ktAreaHandler>().ptr, alloc: CPointer<`[`uiArea`](../../libui/ui-area.md)`>? = uiNewArea(handler.pointed.ui.ptr))` |
 
 ### Inherited properties
 

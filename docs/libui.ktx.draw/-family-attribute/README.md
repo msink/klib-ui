@@ -10,7 +10,7 @@ Changes the font family of the text it is applied to.
 
 | Name | Summary |
 |---|---|
-| [FamilyAttribute](-family-attribute.md) | `FamilyAttribute(family: String)` |
+| [FamilyAttribute](-family-attribute.md) | `fun FamilyAttribute(family: String)` |
 
 ### Properties
 

@@ -10,7 +10,7 @@ Describes the stroke to draw with.
 
 | Name | Summary |
 |---|---|
-| [Stroke](-stroke.md) | `Stroke()` |
+| [Stroke](-stroke.md) | `fun Stroke()` |
 
 ### Inherited properties
 

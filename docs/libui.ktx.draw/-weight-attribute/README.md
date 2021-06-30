@@ -10,7 +10,7 @@ Changes the weight of the text it is applied to.
 
 | Name | Summary |
 |---|---|
-| [WeightAttribute](-weight-attribute.md) | `WeightAttribute(weight: `[`uiTextWeight`](../../libui/ui-text-weight.md)`)` |
+| [WeightAttribute](-weight-attribute.md) | `fun WeightAttribute(weight: `[`uiTextWeight`](../../libui/ui-text-weight.md)`)` |
 
 ### Properties
 

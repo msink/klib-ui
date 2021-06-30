@@ -2,6 +2,6 @@
 
 # OpenTypeFeatures
 
-`OpenTypeFeatures(copy: CPointer<`[`uiOpenTypeFeatures`](../../libui/ui-open-type-features.md)`>? = null)`
+`fun OpenTypeFeatures(copy: CPointer<`[`uiOpenTypeFeatures`](../../libui/ui-open-type-features.md)`>? = null)`
 
 Represents a set of OpenType feature tag-value pairs, for applying OpenType features to text.

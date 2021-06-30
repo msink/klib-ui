@@ -2,4 +2,4 @@
 
 # SizeInt
 
-`SizeInt(width: Int, height: Int)`
+`fun SizeInt(width: Int, height: Int)`

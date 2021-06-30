@@ -2,4 +2,4 @@
 
 # TableColumn
 
-`TableColumn()`
+`fun TableColumn()`

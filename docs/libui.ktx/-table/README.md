@@ -2,7 +2,7 @@
 
 # Table
 
-`class Table<T> : `[`Disposable`](../-disposable/README.md)`<`[`uiTableModel`](../../libui/ui-table-model.md)`>`
+`class Table<T>(data: List<T>, handler: CPointer<`[`ktTableHandler`](../../libui/kt-table-handler/README.md)`>) : `[`Disposable`](../-disposable/README.md)`<`[`uiTableModel`](../../libui/ui-table-model.md)`> `
 
 Wrapper class for [uiTableModel](../../libui/ui-table-model.md)
 
@@ -10,7 +10,7 @@ Wrapper class for [uiTableModel](../../libui/ui-table-model.md)
 
 | Name | Summary |
 |---|---|
-| [Table](-table.md) | `Table(data: List<T>, handler: CPointer<`[`ktTableHandler`](../../libui/kt-table-handler/README.md)`> = nativeHeap.alloc<ktTableHandler>().ptr)` |
+| [Table](-table.md) | `fun <T> Table(data: List<T>, handler: CPointer<`[`ktTableHandler`](../../libui/kt-table-handler/README.md)`> = nativeHeap.alloc<ktTableHandler>().ptr)` |
 
 ### Types
 

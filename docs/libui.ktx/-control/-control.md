@@ -2,6 +2,6 @@
 
 # Control
 
-`Control<T : CPointed>(alloc: CPointer<T>?)`
+`fun <T : CPointed> Control(alloc: CPointer<T>?)`
 
 Base class for all GUI controls (widgets).

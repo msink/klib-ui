@@ -2,4 +2,4 @@
 
 # Size
 
-`Size(width: Double, height: Double)`
+`fun Size(width: Double, height: Double)`

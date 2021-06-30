@@ -10,7 +10,7 @@ Wrapper class for [uiBox](../../libui/ui-box.md) - a container that stack its ch
 
 | Name | Summary |
 |---|---|
-| [Box](-box.md) | `Box(alloc: CPointer<`[`uiBox`](../../libui/ui-box.md)`>?)` |
+| [Box](-box.md) | `fun Box(alloc: CPointer<`[`uiBox`](../../libui/ui-box.md)`>?)` |
 
 ### Properties
 

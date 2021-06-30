@@ -10,7 +10,7 @@ Represents a string of UTF-8 text that can be embellished with formatting attrib
 
 | Name | Summary |
 |---|---|
-| [AttributedString](-attributed-string.md) | `AttributedString(init: String)` |
+| [AttributedString](-attributed-string.md) | `fun AttributedString(init: String)` |
 
 ### Properties
 

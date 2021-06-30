@@ -10,7 +10,7 @@ Wrapper class for [uiEntry](../../libui/ui-entry.md) - a text entry widget to se
 
 | Name | Summary |
 |---|---|
-| [SearchField](-search-field.md) | `SearchField()` |
+| [SearchField](-search-field.md) | `fun SearchField()` |
 
 ### Inherited properties
 

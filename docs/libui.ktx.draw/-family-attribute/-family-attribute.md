@@ -2,6 +2,6 @@
 
 # FamilyAttribute
 
-`FamilyAttribute(family: String)`
+`fun FamilyAttribute(family: String)`
 
 Changes the font family of the text it is applied to.

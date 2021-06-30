@@ -2,6 +2,6 @@
 
 # Brush
 
-`Brush()`
+`fun Brush()`
 
 Defines the color(s) to draw a path with.

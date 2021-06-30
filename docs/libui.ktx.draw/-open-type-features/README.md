@@ -10,7 +10,7 @@ Represents a set of OpenType feature tag-value pairs, for applying OpenType feat
 
 | Name | Summary |
 |---|---|
-| [OpenTypeFeatures](-open-type-features.md) | `OpenTypeFeatures(copy: CPointer<`[`uiOpenTypeFeatures`](../../libui/ui-open-type-features.md)`>? = null)` |
+| [OpenTypeFeatures](-open-type-features.md) | `fun OpenTypeFeatures(copy: CPointer<`[`uiOpenTypeFeatures`](../../libui/ui-open-type-features.md)`>? = null)` |
 
 ### Inherited properties
 

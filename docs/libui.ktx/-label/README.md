@@ -10,7 +10,7 @@ Wrapper class for [uiLabel](../../libui/ui-label.md) - a static text label.
 
 | Name | Summary |
 |---|---|
-| [Label](-label.md) | `Label(text: String)` |
+| [Label](-label.md) | `fun Label(text: String)` |
 
 ### Properties
 

@@ -2,6 +2,6 @@
 
 # Form
 
-`Form()`
+`fun Form()`
 
 Wrapper class for [uiForm](../../libui/ui-form.md) - a container that organize children as labeled fields.

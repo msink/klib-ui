@@ -10,7 +10,7 @@ Base class for all GUI controls (widgets).
 
 | Name | Summary |
 |---|---|
-| [Control](-control.md) | `Control<T : CPointed>(alloc: CPointer<T>?)` |
+| [Control](-control.md) | `fun <T : CPointed> Control(alloc: CPointer<T>?)` |
 
 ### Properties
 
