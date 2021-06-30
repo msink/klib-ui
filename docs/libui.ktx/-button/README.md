@@ -2,7 +2,7 @@
 
 # Button
 
-`class Button : `[`Control`](../-control/README.md)`<`[`uiButton`](../../libui/ui-button.md)`>`
+`class Button(text: String) : `[`Control`](../-control/README.md)`<`[`uiButton`](../../libui/ui-button.md)`> `
 
 Wrapper class for [uiButton](../../libui/ui-button.md) - a simple button.
 

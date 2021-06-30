@@ -2,7 +2,7 @@
 
 # Checkbox
 
-`class Checkbox : `[`Control`](../-control/README.md)`<`[`uiCheckbox`](../../libui/ui-checkbox.md)`>`
+`class Checkbox(label: String) : `[`Control`](../-control/README.md)`<`[`uiCheckbox`](../../libui/ui-checkbox.md)`> `
 
 Wrapper class for [uiCheckbox](../../libui/ui-checkbox.md) - a checkbox widget.
 

@@ -20,7 +20,7 @@ Wrapper class for [uiBox](../../libui/ui-box.md) - a container that stack its ch
 | [enabled](../-control/enabled.md) | `var enabled: Boolean`<br>Whether the Control should be enabled or disabled. |
 | [padded](../-box/padded.md) | `var padded: Boolean`<br>If `true`, the container insert some space between children. |
 | [parent](../-control/parent.md) | `var parent: `[`Control`](../-control/README.md)`<*>?`<br>Returns parent of the control or `null` for detached. |
-| [stretchy](../-box/stretchy.md) | `var stretchy: Boolean`<br>Next added child should expand to use all available size. |
+| [stretchy](../-box/stretchy.md) | `var stretchy: Boolean = false`<br>Next added child should expand to use all available size. |
 | [toplevel](../-control/toplevel.md) | `val toplevel: Boolean`<br>Returns whether the control is a top level one or not. |
 | [visible](../-control/visible.md) | `var visible: Boolean`<br>Whether the Control should be visible or hidden. |
 

@@ -2,6 +2,6 @@
 
 # stretchy
 
-`var stretchy: Boolean`
+`var stretchy: Boolean = false`
 
 Next added child should expand to use all available size.

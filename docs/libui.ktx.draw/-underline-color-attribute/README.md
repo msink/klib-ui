@@ -2,7 +2,7 @@
 
 # UnderlineColorAttribute
 
-`class UnderlineColorAttribute : `[`Attribute`](../-attribute/README.md)
+`class UnderlineColorAttribute(kind: `[`uiUnderlineColor`](../../libui/ui-underline-color.md)`, color: `[`Color`](../-color/README.md)`) : `[`Attribute`](../-attribute/README.md)
 
 Changes the color of the underline on the text it is applied to.
 

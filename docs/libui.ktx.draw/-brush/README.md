@@ -2,7 +2,7 @@
 
 # Brush
 
-`class Brush : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiDrawBrush`](../../libui/ui-draw-brush/README.md)`>`
+`class Brush : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiDrawBrush`](../../libui/ui-draw-brush/README.md)`> `
 
 Defines the color(s) to draw a path with.
 

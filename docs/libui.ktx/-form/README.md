@@ -2,7 +2,7 @@
 
 # Form
 
-`class Form : `[`Control`](../-control/README.md)`<`[`uiForm`](../../libui/ui-form.md)`>, `[`Container`](../-container/README.md)
+`class Form : `[`Control`](../-control/README.md)`<`[`uiForm`](../../libui/ui-form.md)`> , `[`Container`](../-container/README.md)
 
 Wrapper class for [uiForm](../../libui/ui-form.md) - a container that organize children as labeled fields.
 
@@ -18,7 +18,7 @@ Wrapper class for [uiForm](../../libui/ui-form.md) - a container that organize c
 |---|---|
 | [label](label.md) | `var label: String`<br>Label for next added child |
 | [padded](padded.md) | `var padded: Boolean`<br>If true, the container insert some space between children. |
-| [stretchy](stretchy.md) | `var stretchy: Boolean`<br>Next added child should expand to use all available size. |
+| [stretchy](stretchy.md) | `var stretchy: Boolean = false`<br>Next added child should expand to use all available size. |
 
 ### Inherited properties
 

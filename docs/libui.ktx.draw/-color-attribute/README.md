@@ -2,7 +2,7 @@
 
 # ColorAttribute
 
-`class ColorAttribute : `[`Attribute`](../-attribute/README.md)
+`class ColorAttribute(color: `[`Color`](../-color/README.md)`) : `[`Attribute`](../-attribute/README.md)
 
 Changes the color of the text it is applied to.
 

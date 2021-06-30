@@ -2,7 +2,7 @@
 
 # Control
 
-`abstract class Control<T : CPointed> : `[`Disposable`](../-disposable/README.md)`<T>`
+`abstract class Control<T : CPointed>(alloc: CPointer<T>?) : `[`Disposable`](../-disposable/README.md)`<T> `
 
 Base class for all GUI controls (widgets).
 

@@ -2,7 +2,7 @@
 
 # FamilyAttribute
 
-`class FamilyAttribute : `[`Attribute`](../-attribute/README.md)
+`class FamilyAttribute(family: String) : `[`Attribute`](../-attribute/README.md)
 
 Changes the font family of the text it is applied to.
 

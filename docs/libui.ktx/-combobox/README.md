@@ -2,7 +2,7 @@
 
 # Combobox
 
-`class Combobox : `[`Control`](../-control/README.md)`<`[`uiCombobox`](../../libui/ui-combobox.md)`>`
+`class Combobox : `[`Control`](../-control/README.md)`<`[`uiCombobox`](../../libui/ui-combobox.md)`> `
 
 Wrapper class for [uiCombobox](../../libui/ui-combobox.md) - a drop down combo box that allow list selection only.
 

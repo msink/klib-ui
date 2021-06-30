@@ -2,7 +2,7 @@
 
 # TextField
 
-`open class TextField : `[`Control`](../-control/README.md)`<`[`uiEntry`](../../libui/ui-entry.md)`>`
+`open class TextField : `[`Control`](../-control/README.md)`<`[`uiEntry`](../../libui/ui-entry.md)`> `
 
 Wrapper class for [uiEntry](../../libui/ui-entry.md) - a simple single line text entry widget
 

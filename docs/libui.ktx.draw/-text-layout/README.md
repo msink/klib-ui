@@ -2,7 +2,7 @@
 
 # TextLayout
 
-`class TextLayout : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiDrawTextLayout`](../../libui/ui-draw-text-layout.md)`>`
+`class TextLayout(string: `[`AttributedString`](../-attributed-string/README.md)`, defaultFont: `[`Font`](../-font/README.md)`, width: Double, align: `[`uiDrawTextAlign`](../../libui/ui-draw-text-align.md)`) : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiDrawTextLayout`](../../libui/ui-draw-text-layout.md)`> `
 
 Representation of a [AttributedString](../-attributed-string/README.md) that can be displayed in a [DrawContext](../../libui.ktx/-draw-context.md).
 

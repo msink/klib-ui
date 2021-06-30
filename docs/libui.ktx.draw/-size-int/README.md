@@ -2,7 +2,7 @@
 
 # SizeInt
 
-`data class SizeInt`
+`data class SizeInt(width: Int, height: Int)`
 
 ### Constructors
 

@@ -2,7 +2,7 @@
 
 # Box
 
-`abstract class Box : `[`Control`](../-control/README.md)`<`[`uiBox`](../../libui/ui-box.md)`>, `[`Container`](../-container/README.md)
+`abstract class Box(alloc: CPointer<`[`uiBox`](../../libui/ui-box.md)`>?) : `[`Control`](../-control/README.md)`<`[`uiBox`](../../libui/ui-box.md)`> , `[`Container`](../-container/README.md)
 
 Wrapper class for [uiBox](../../libui/ui-box.md) - a container that stack its children horizontally or vertically.
 
@@ -17,7 +17,7 @@ Wrapper class for [uiBox](../../libui/ui-box.md) - a container that stack its ch
 | Name | Summary |
 |---|---|
 | [padded](padded.md) | `var padded: Boolean`<br>If `true`, the container insert some space between children. |
-| [stretchy](stretchy.md) | `var stretchy: Boolean`<br>Next added child should expand to use all available size. |
+| [stretchy](stretchy.md) | `var stretchy: Boolean = false`<br>Next added child should expand to use all available size. |
 
 ### Inherited properties
 

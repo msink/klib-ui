@@ -2,6 +2,6 @@
 
 # xspan
 
-`var xspan: Int`
+`var xspan: Int = 1`
 
 The width of the Control.

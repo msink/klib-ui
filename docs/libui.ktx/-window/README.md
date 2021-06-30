@@ -2,7 +2,7 @@
 
 # Window
 
-`class Window : `[`Control`](../-control/README.md)`<`[`uiWindow`](../../libui/ui-window.md)`>, `[`Container`](../-container/README.md)
+`class Window(title: String, width: Int, height: Int, hasMenubar: Boolean) : `[`Control`](../-control/README.md)`<`[`uiWindow`](../../libui/ui-window.md)`> , `[`Container`](../-container/README.md)
 
 Represents a top-level window.
 Contains one child control that occupies the entirety of the window.

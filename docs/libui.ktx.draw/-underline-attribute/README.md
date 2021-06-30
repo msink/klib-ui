@@ -2,7 +2,7 @@
 
 # UnderlineAttribute
 
-`class UnderlineAttribute : `[`Attribute`](../-attribute/README.md)
+`class UnderlineAttribute(u: `[`uiUnderline`](../../libui/ui-underline.md)`) : `[`Attribute`](../-attribute/README.md)
 
 Changes the type of underline on the text it is applied to.
 

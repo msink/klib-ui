@@ -2,7 +2,7 @@
 
 # ItalicAttribute
 
-`class ItalicAttribute : `[`Attribute`](../-attribute/README.md)
+`class ItalicAttribute(italic: `[`uiTextItalic`](../../libui/ui-text-italic.md)`) : `[`Attribute`](../-attribute/README.md)
 
 Changes the italic mode of the text it is applied to.
 

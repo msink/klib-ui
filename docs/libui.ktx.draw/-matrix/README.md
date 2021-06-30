@@ -2,7 +2,7 @@
 
 # Matrix
 
-`class Matrix : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiDrawMatrix`](../../libui/ui-draw-matrix/README.md)`>`
+`class Matrix : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiDrawMatrix`](../../libui/ui-draw-matrix/README.md)`> `
 
 Defines a transformation (e.g. rotation, translation)
 

@@ -2,7 +2,7 @@
 
 # SizeAttribute
 
-`class SizeAttribute : `[`Attribute`](../-attribute/README.md)
+`class SizeAttribute(size: Double) : `[`Attribute`](../-attribute/README.md)
 
 Changes the size of the text it is applied to, in typographical points.
 

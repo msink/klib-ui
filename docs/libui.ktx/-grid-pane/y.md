@@ -2,6 +2,6 @@
 
 # y
 
-`var y: Int`
+`var y: Int = 0`
 
 The y-coordinate of the Control's location.

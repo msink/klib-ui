@@ -2,7 +2,7 @@
 
 # Size
 
-`data class Size`
+`data class Size(width: Double, height: Double)`
 
 ### Constructors
 

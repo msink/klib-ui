@@ -2,7 +2,7 @@
 
 # Spinbox
 
-`class Spinbox : `[`Control`](../-control/README.md)`<`[`uiSpinbox`](../../libui/ui-spinbox.md)`>`
+`class Spinbox(min: Int, max: Int) : `[`Control`](../-control/README.md)`<`[`uiSpinbox`](../../libui/ui-spinbox.md)`> `
 
 Wrapper class for [uiSpinbox](../../libui/ui-spinbox.md) - an entry widget for numerical values.
 

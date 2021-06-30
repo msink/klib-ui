@@ -2,7 +2,7 @@
 
 # BackgroundAttribute
 
-`class BackgroundAttribute : `[`Attribute`](../-attribute/README.md)
+`class BackgroundAttribute(color: `[`Color`](../-color/README.md)`) : `[`Attribute`](../-attribute/README.md)
 
 Changes the background color of the text it is applied to.
 

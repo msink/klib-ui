@@ -2,4 +2,4 @@
 
 # a
 
-`val a: Double`
+`val a: Double = 1.0`

@@ -2,7 +2,7 @@
 
 # Group
 
-`class Group : `[`Control`](../-control/README.md)`<`[`uiGroup`](../../libui/ui-group.md)`>, `[`Container`](../-container/README.md)
+`class Group(title: String) : `[`Control`](../-control/README.md)`<`[`uiGroup`](../../libui/ui-group.md)`> , `[`Container`](../-container/README.md)
 
 Wrapper class for [uiGroup](../../libui/ui-group.md) - a container for a single widget that provide
 a caption and visually group it's children.

@@ -2,7 +2,7 @@
 
 # Color
 
-`data class Color`
+`data class Color(r: Double, g: Double, b: Double, a: Double)`
 
 ### Constructors
 
@@ -14,7 +14,7 @@
 
 | Name | Summary |
 |---|---|
-| [a](a.md) | `val a: Double` |
+| [a](a.md) | `val a: Double = 1.0` |
 | [b](b.md) | `val b: Double` |
 | [g](g.md) | `val g: Double` |
 | [r](r.md) | `val r: Double` |

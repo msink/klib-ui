@@ -2,7 +2,7 @@
 
 # Path
 
-`class Path : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiDrawPath`](../../libui/ui-draw-path.md)`>`
+`class Path(mode: `[`uiDrawFillMode`](../../libui/ui-draw-fill-mode.md)`) : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiDrawPath`](../../libui/ui-draw-path.md)`> `
 
 Represent a path that could be drawed on a [DrawContext](../../libui.ktx/-draw-context.md)
 

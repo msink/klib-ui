@@ -2,7 +2,7 @@
 
 # Stroke
 
-`class Stroke : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiDrawStrokeParams`](../../libui/ui-draw-stroke-params/README.md)`>`
+`class Stroke : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiDrawStrokeParams`](../../libui/ui-draw-stroke-params/README.md)`> `
 
 Describes the stroke to draw with.
 

@@ -2,7 +2,7 @@
 
 # Separator
 
-`abstract class Separator : `[`Control`](../-control/README.md)`<`[`uiSeparator`](../../libui/ui-separator.md)`>`
+`abstract class Separator(alloc: CPointer<`[`uiSeparator`](../../libui/ui-separator.md)`>?) : `[`Control`](../-control/README.md)`<`[`uiSeparator`](../../libui/ui-separator.md)`> `
 
 Wrapper class for [uiSeparator](../../libui/ui-separator.md)
 

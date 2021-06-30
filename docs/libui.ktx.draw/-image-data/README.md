@@ -2,7 +2,7 @@
 
 # ImageData
 
-`class ImageData`
+`class ImageData(width: Int, height: Int, stride: Int, pixels: CValuesRef<UIntVar>)`
 
 ### Constructors
 

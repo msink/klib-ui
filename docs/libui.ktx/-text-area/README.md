@@ -2,7 +2,7 @@
 
 # TextArea
 
-`class TextArea : `[`Control`](../-control/README.md)`<`[`uiMultilineEntry`](../../libui/ui-multiline-entry.md)`>`
+`class TextArea(wrap: Boolean) : `[`Control`](../-control/README.md)`<`[`uiMultilineEntry`](../../libui/ui-multiline-entry.md)`> `
 
 Wrapper class for [uiMultilineEntry](../../libui/ui-multiline-entry.md) - a multiline plain text editing widget
 

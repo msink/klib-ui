@@ -2,7 +2,7 @@
 
 # ColorButton
 
-`class ColorButton : `[`Control`](../-control/README.md)`<`[`uiColorButton`](../../libui/ui-color-button.md)`>`
+`class ColorButton : `[`Control`](../-control/README.md)`<`[`uiColorButton`](../../libui/ui-color-button.md)`> `
 
 Wrapper class for [uiColorButton](../../libui/ui-color-button.md) - a button that opens a color palette popup.
 

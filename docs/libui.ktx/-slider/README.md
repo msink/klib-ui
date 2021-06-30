@@ -2,7 +2,7 @@
 
 # Slider
 
-`class Slider : `[`Control`](../-control/README.md)`<`[`uiSlider`](../../libui/ui-slider.md)`>`
+`class Slider(min: Int, max: Int) : `[`Control`](../-control/README.md)`<`[`uiSlider`](../../libui/ui-slider.md)`> `
 
 Wrapper class for [uiSlider](../../libui/ui-slider.md) - an horizontal slide to set numerical values.
 

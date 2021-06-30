@@ -2,7 +2,7 @@
 
 # AttributedString
 
-`class AttributedString : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiAttributedString`](../../libui/ui-attributed-string.md)`>`
+`class AttributedString(init: String) : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiAttributedString`](../../libui/ui-attributed-string.md)`> `
 
 Represents a string of UTF-8 text that can be embellished with formatting attributes.
 

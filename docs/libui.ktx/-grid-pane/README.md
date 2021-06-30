@@ -2,7 +2,7 @@
 
 # GridPane
 
-`class GridPane : `[`Control`](../-control/README.md)`<`[`uiGrid`](../../libui/ui-grid.md)`>, `[`Container`](../-container/README.md)
+`class GridPane : `[`Control`](../-control/README.md)`<`[`uiGrid`](../../libui/ui-grid.md)`> , `[`Container`](../-container/README.md)
 
 Wrapper class for [uiGrid](../../libui/ui-grid.md) - a powerful container that allow to specify
 size and position of each children.
@@ -18,14 +18,14 @@ size and position of each children.
 | Name | Summary |
 |---|---|
 | [halign](halign.md) | `var halign: `[`uiAlign`](../../libui/ui-align.md)<br>The horizontal alignment of Control. |
-| [hexpand](hexpand.md) | `var hexpand: Boolean`<br>The horizontal expand of Control. |
+| [hexpand](hexpand.md) | `var hexpand: Boolean = false`<br>The horizontal expand of Control. |
 | [padded](padded.md) | `var padded: Boolean`<br>If true, the container insert some space between children. |
 | [valign](valign.md) | `var valign: `[`uiAlign`](../../libui/ui-align.md)<br>The vertical alignment of Control. |
-| [vexpand](vexpand.md) | `var vexpand: Boolean`<br>The vertical expand of Control. |
-| [x](x.md) | `var x: Int`<br>The x-coordinate of the Control's location. |
-| [xspan](xspan.md) | `var xspan: Int`<br>The width of the Control. |
-| [y](y.md) | `var y: Int`<br>The y-coordinate of the Control's location. |
-| [yspan](yspan.md) | `var yspan: Int`<br>The height of the Control. |
+| [vexpand](vexpand.md) | `var vexpand: Boolean = false`<br>The vertical expand of Control. |
+| [x](x.md) | `var x: Int = 0`<br>The x-coordinate of the Control's location. |
+| [xspan](xspan.md) | `var xspan: Int = 1`<br>The width of the Control. |
+| [y](y.md) | `var y: Int = 0`<br>The y-coordinate of the Control's location. |
+| [yspan](yspan.md) | `var yspan: Int = 1`<br>The height of the Control. |
 
 ### Inherited properties
 

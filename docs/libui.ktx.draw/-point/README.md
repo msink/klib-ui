@@ -2,7 +2,7 @@
 
 # Point
 
-`data class Point`
+`data class Point(x: Double, y: Double)`
 
 ### Constructors
 

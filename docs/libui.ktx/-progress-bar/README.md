@@ -2,7 +2,7 @@
 
 # ProgressBar
 
-`class ProgressBar : `[`Control`](../-control/README.md)`<`[`uiProgressBar`](../../libui/ui-progress-bar.md)`>`
+`class ProgressBar : `[`Control`](../-control/README.md)`<`[`uiProgressBar`](../../libui/ui-progress-bar.md)`> `
 
 Wrapper class for [uiProgressBar](../../libui/ui-progress-bar.md) - a progress bar widget.
 

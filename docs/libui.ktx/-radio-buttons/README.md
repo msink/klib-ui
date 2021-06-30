@@ -2,7 +2,7 @@
 
 # RadioButtons
 
-`class RadioButtons : `[`Control`](../-control/README.md)`<`[`uiRadioButtons`](../../libui/ui-radio-buttons.md)`>`
+`class RadioButtons : `[`Control`](../-control/README.md)`<`[`uiRadioButtons`](../../libui/ui-radio-buttons.md)`> `
 
 Wrapper class for [uiRadioButtons](../../libui/ui-radio-buttons.md) - a widget that represent a group of radio options.
 

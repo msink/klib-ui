@@ -2,7 +2,7 @@
 
 # WeightAttribute
 
-`class WeightAttribute : `[`Attribute`](../-attribute/README.md)
+`class WeightAttribute(weight: `[`uiTextWeight`](../../libui/ui-text-weight.md)`) : `[`Attribute`](../-attribute/README.md)
 
 Changes the weight of the text it is applied to.
 

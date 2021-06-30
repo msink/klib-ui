@@ -2,7 +2,7 @@
 
 # DateTimePicker
 
-`open class DateTimePicker : `[`Control`](../-control/README.md)`<`[`uiDateTimePicker`](../../libui/ui-date-time-picker.md)`>`
+`open class DateTimePicker : `[`Control`](../-control/README.md)`<`[`uiDateTimePicker`](../../libui/ui-date-time-picker.md)`> `
 
 Wrapper class for [uiDateTimePicker](../../libui/ui-date-time-picker.md) - a widget to edit date and time.
 

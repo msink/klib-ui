@@ -2,6 +2,6 @@
 
 # yspan
 
-`var yspan: Int`
+`var yspan: Int = 1`
 
 The height of the Control.

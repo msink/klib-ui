@@ -2,6 +2,6 @@
 
 # vexpand
 
-`var vexpand: Boolean`
+`var vexpand: Boolean = false`
 
 The vertical expand of Control.

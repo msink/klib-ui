@@ -2,7 +2,7 @@
 
 # ScrollingArea
 
-`class ScrollingArea : `[`DrawArea`](../-draw-area/README.md)
+`class ScrollingArea(width: Int, height: Int, handler: CPointer<`[`ktAreaHandler`](../../libui/kt-area-handler/README.md)`>, alloc: CPointer<`[`uiArea`](../../libui/ui-area.md)`>?) : `[`DrawArea`](../-draw-area/README.md)
 
 Wrapper class for [uiArea](../../libui/ui-area.md) - a canvas with horziontal and vertical scrollbars.
 

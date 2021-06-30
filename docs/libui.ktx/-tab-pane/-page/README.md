@@ -2,7 +2,7 @@
 
 # Page
 
-`inner class Page : `[`Container`](../../-container/README.md)
+`inner class Page(label: String) : `[`Container`](../../-container/README.md)
 
 adapter for DSL builders
 

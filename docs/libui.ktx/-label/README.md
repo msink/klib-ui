@@ -2,7 +2,7 @@
 
 # Label
 
-`class Label : `[`Control`](../-control/README.md)`<`[`uiLabel`](../../libui/ui-label.md)`>`
+`class Label(text: String) : `[`Control`](../-control/README.md)`<`[`uiLabel`](../../libui/ui-label.md)`> `
 
 Wrapper class for [uiLabel](../../libui/ui-label.md) - a static text label.
 

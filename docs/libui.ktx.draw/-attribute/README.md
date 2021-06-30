@@ -2,7 +2,7 @@
 
 # Attribute
 
-`abstract class Attribute : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiAttribute`](../../libui/ui-attribute.md)`>`
+`abstract class Attribute(alloc: CPointer<`[`uiAttribute`](../../libui/ui-attribute.md)`>?) : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiAttribute`](../../libui/ui-attribute.md)`> `
 
 Stores information about an attribute in a [AttributedString](../-attributed-string/README.md).
 

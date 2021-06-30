@@ -2,7 +2,7 @@
 
 # TabPane
 
-`class TabPane : `[`Control`](../-control/README.md)`<`[`uiTab`](../../libui/ui-tab.md)`>`
+`class TabPane : `[`Control`](../-control/README.md)`<`[`uiTab`](../../libui/ui-tab.md)`> `
 
 Wrapper class for [uiTab](../../libui/ui-tab.md) - a container that show each children in a separate tab.
 
@@ -16,7 +16,7 @@ Wrapper class for [uiTab](../../libui/ui-tab.md) - a container that show each ch
 
 | Name | Summary |
 |---|---|
-| [Page](-page/README.md) | `inner class Page : `[`Container`](../-container/README.md)<br>adapter for DSL builders |
+| [Page](-page/README.md) | `inner class Page(label: String) : `[`Container`](../-container/README.md)<br>adapter for DSL builders |
 
 ### Properties
 

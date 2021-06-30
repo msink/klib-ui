@@ -2,7 +2,7 @@
 
 # Font
 
-`class Font : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiFontDescriptor`](../../libui/ui-font-descriptor/README.md)`>`
+`open class Font(family: String?, size: Double, weight: `[`uiTextWeight`](../../libui/ui-text-weight.md)`, italic: `[`uiTextItalic`](../../libui/ui-text-italic.md)`, stretch: `[`uiTextStretch`](../../libui/ui-text-stretch.md)`) : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiFontDescriptor`](../../libui/ui-font-descriptor/README.md)`> `
 
 Provides a complete description of a font where one is needed.
 
@@ -10,7 +10,7 @@ Provides a complete description of a font where one is needed.
 
 | Name | Summary |
 |---|---|
-| [Font](-font.md) | `fun Font()` |
+| [Font](-font.md) | `fun Font(family: String? = null, size: Double = 0.0, weight: `[`uiTextWeight`](../../libui/ui-text-weight.md)` = uiTextWeightNormal, italic: `[`uiTextItalic`](../../libui/ui-text-italic.md)` = uiTextItalicNormal, stretch: `[`uiTextStretch`](../../libui/ui-text-stretch.md)` = uiTextStretchNormal)` |
 
 ### Inherited properties
 

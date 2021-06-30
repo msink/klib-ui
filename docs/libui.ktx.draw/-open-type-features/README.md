@@ -2,7 +2,7 @@
 
 # OpenTypeFeatures
 
-`class OpenTypeFeatures : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiOpenTypeFeatures`](../../libui/ui-open-type-features.md)`>`
+`class OpenTypeFeatures(copy: CPointer<`[`uiOpenTypeFeatures`](../../libui/ui-open-type-features.md)`>?) : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiOpenTypeFeatures`](../../libui/ui-open-type-features.md)`> `
 
 Represents a set of OpenType feature tag-value pairs, for applying OpenType features to text.
 

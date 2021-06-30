@@ -2,7 +2,7 @@
 
 # Image
 
-`class Image : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiImage`](../../libui/ui-image.md)`>`
+`class Image(width: Double, height: Double) : `[`Disposable`](../../libui.ktx/-disposable/README.md)`<`[`uiImage`](../../libui/ui-image.md)`> `
 
 ### Constructors
 

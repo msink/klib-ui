@@ -2,7 +2,7 @@
 
 # DrawArea
 
-`open class DrawArea : `[`Control`](../-control/README.md)`<`[`uiArea`](../../libui/ui-area.md)`>`
+`open class DrawArea(handler: CPointer<`[`ktAreaHandler`](../../libui/kt-area-handler/README.md)`>, alloc: CPointer<`[`uiArea`](../../libui/ui-area.md)`>?) : `[`Control`](../-control/README.md)`<`[`uiArea`](../../libui/ui-area.md)`> `
 
 Wrapper class for [uiArea](../../libui/ui-area.md) - a canvas you can draw on.
 
@@ -59,5 +59,5 @@ Wrapper class for [uiArea](../../libui/ui-area.md) - a canvas you can draw on.
 |---|---|
 | [brush](../../libui.ktx.draw/brush.md) | `fun DrawArea.brush(): `[`Brush`](../../libui.ktx.draw/-brush/README.md)<br>Creates a new [Brush](../../libui.ktx.draw/-brush/README.md) with lifecycle delegated to [DrawArea](README.md). |
 | [font](../../libui.ktx.draw/font.md) | `fun DrawArea.font(family: String? = null, size: Double = 0.0, weight: `[`uiTextWeight`](../../libui/ui-text-weight.md)` = uiTextWeightNormal, italic: `[`uiTextItalic`](../../libui/ui-text-italic.md)` = uiTextItalicNormal, stretch: `[`uiTextStretch`](../../libui/ui-text-stretch.md)` = uiTextStretchNormal): `[`Font`](../../libui.ktx.draw/-font/README.md)<br>Creates a new [Font](../../libui.ktx.draw/-font/README.md) with lifecycle delegated to [DrawArea](README.md). |
-| [string](../../libui.ktx.draw/string.md) | `fun DrawArea.string(init: String): `[`AttributedString`](../../libui.ktx.draw/-attributed-string/README.md)<br>Creates a new [AttributedString](../../libui.ktx.draw/-attributed-string/README.md) from initial String. The string will be entirely unattributed. |
+| [string](../../libui.ktx.draw/string.md) | `fun DrawArea.string(init: String): `[`AttributedString`](../../libui.ktx.draw/-attributed-string/README.md)<br>Creates a new [AttributedString](../../libui.ktx.draw/-attributed-string/README.md) from initial String |
 | [stroke](../../libui.ktx.draw/stroke.md) | `fun DrawArea.stroke(block: `[`uiDrawStrokeParams`](../../libui/ui-draw-stroke-params/README.md)`.() -> Unit = {}): `[`Stroke`](../../libui.ktx.draw/-stroke/README.md)<br>Creates a new [Stroke](../../libui.ktx.draw/-stroke/README.md) with lifecycle delegated to [DrawArea](README.md). |

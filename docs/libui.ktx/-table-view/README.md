@@ -2,7 +2,7 @@
 
 # TableView
 
-`class TableView : `[`Control`](../-control/README.md)`<`[`uiTable`](../../libui/ui-table.md)`>`
+`class TableView(table: `[`Table`](../-table/README.md)`<*>) : `[`Control`](../-control/README.md)`<`[`uiTable`](../../libui/ui-table.md)`> `
 
 Wrapper class for [uiTable](../../libui/ui-table.md)
 

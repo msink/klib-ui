@@ -2,6 +2,6 @@
 
 # hexpand
 
-`var hexpand: Boolean`
+`var hexpand: Boolean = false`
 
 The horizontal expand of Control.
