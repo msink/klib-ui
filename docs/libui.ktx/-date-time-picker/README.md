@@ -53,7 +53,7 @@ Wrapper class for [uiDateTimePicker](../../libui/ui-date-time-picker.md) - a wid
 
 ### Inheritors
 
-| Name | Summary |
-|---|---|
-| [DatePicker](../-date-picker/README.md) | `class DatePicker : `[`DateTimePicker`](README.md)<br>Wrapper class for [uiDateTimePicker](../../libui/ui-date-time-picker.md) - a widget to edit date. |
-| [TimePicker](../-time-picker/README.md) | `class TimePicker : `[`DateTimePicker`](README.md)<br>Wrapper class for [uiDateTimePicker](../../libui/ui-date-time-picker.md) - a widget to edit time. |
+| Name |
+|---|
+| [DatePicker](../-date-picker/README.md) |
+| [TimePicker](../-time-picker/README.md) |

@@ -14,14 +14,14 @@ Container for child controls.
 
 ### Inheritors
 
-| Name | Summary |
+| Name |
 |---|---|
-| [Box](../-box/README.md) | `abstract class Box : `[`Control`](../-control/README.md)`<`[`uiBox`](../../libui/ui-box.md)`>, `[`Container`](README.md)<br>Wrapper class for [uiBox](../../libui/ui-box.md) - a container that stack its children horizontally or vertically. |
-| [Form](../-form/README.md) | `class Form : `[`Control`](../-control/README.md)`<`[`uiForm`](../../libui/ui-form.md)`>, `[`Container`](README.md)<br>Wrapper class for [uiForm](../../libui/ui-form.md) - a container that organize children as labeled fields. |
-| [GridPane](../-grid-pane/README.md) | `class GridPane : `[`Control`](../-control/README.md)`<`[`uiGrid`](../../libui/ui-grid.md)`>, `[`Container`](README.md)<br>Wrapper class for [uiGrid](../../libui/ui-grid.md) - a powerful container that allow to specify size and position of each children. |
-| [Group](../-group/README.md) | `class Group : `[`Control`](../-control/README.md)`<`[`uiGroup`](../../libui/ui-group.md)`>, `[`Container`](README.md)<br>Wrapper class for [uiGroup](../../libui/ui-group.md) - a container for a single widget that provide a caption and visually group it's children. |
-| [Page](../-tab-pane/-page/README.md) | `inner class Page : `[`Container`](README.md)<br>adapter for DSL builders |
-| [Window](../-window/README.md) | `class Window : `[`Control`](../-control/README.md)`<`[`uiWindow`](../../libui/ui-window.md)`>, `[`Container`](README.md)<br>Represents a top-level window. Contains one child control that occupies the entirety of the window. |
+| [Box](../-box/README.md) |
+| [Form](../-form/README.md) |
+| [GridPane](../-grid-pane/README.md) |
+| [Group](../-group/README.md) |
+| [Page](../-tab-pane/-page/README.md) |
+| [Window](../-window/README.md) |
 
 ### Extensions
 

@@ -91,7 +91,7 @@ Wrapper class for [uiBox](../../libui/ui-box.md) - a container that stack its ch
 
 ### Inheritors
 
-| Name | Summary |
-|---|---|
-| [HBox](../-h-box/README.md) | `class HBox : `[`Box`](README.md)<br>Wrapper class for [uiBox](../../libui/ui-box.md) - a container that stack its children horizontally. |
-| [VBox](../-v-box/README.md) | `class VBox : `[`Box`](README.md)<br>Wrapper class for [uiBox](../../libui/ui-box.md) - a container that stack its children vertically. |
+| Name |
+|---|
+| [HBox](../-h-box/README.md) |
+| [VBox](../-v-box/README.md) |

@@ -51,7 +51,7 @@ Wrapper class for [uiEntry](../../libui/ui-entry.md) - a simple single line text
 
 ### Inheritors
 
-| Name | Summary |
-|---|---|
-| [PasswordField](../-password-field/README.md) | `class PasswordField : `[`TextField`](README.md)<br>Wrapper class for [uiEntry](../../libui/ui-entry.md) - a text entry widget that mask the input, useful to edit passwords or other sensible data. |
-| [SearchField](../-search-field/README.md) | `class SearchField : `[`TextField`](README.md)<br>Wrapper class for [uiEntry](../../libui/ui-entry.md) - a text entry widget to search text. |
+| Name |
+|---|
+| [PasswordField](../-password-field/README.md) |
+| [SearchField](../-search-field/README.md) |

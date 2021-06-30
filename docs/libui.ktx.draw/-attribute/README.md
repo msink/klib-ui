@@ -32,15 +32,15 @@ Stores information about an attribute in a [AttributedString](../-attributed-str
 
 ### Inheritors
 
-| Name | Summary |
-|---|---|
-| [BackgroundAttribute](../-background-attribute/README.md) | `class BackgroundAttribute : Attribute`<br>Changes the background color of the text it is applied to. |
-| [ColorAttribute](../-color-attribute/README.md) | `class ColorAttribute : Attribute`<br>Changes the color of the text it is applied to. |
-| [FamilyAttribute](../-family-attribute/README.md) | `class FamilyAttribute : Attribute`<br>Changes the font family of the text it is applied to. |
-| [FeaturesAttribute](../-features-attribute/README.md) | `class FeaturesAttribute : Attribute`<br>Creates a new Attribute that changes the font family of the text it is applied to. otf is copied you may free it. |
-| [ItalicAttribute](../-italic-attribute/README.md) | `class ItalicAttribute : Attribute`<br>Changes the italic mode of the text it is applied to. |
-| [SizeAttribute](../-size-attribute/README.md) | `class SizeAttribute : Attribute`<br>Changes the size of the text it is applied to, in typographical points. |
-| [StretchAttribute](../-stretch-attribute/README.md) | `class StretchAttribute : Attribute`<br>Changes the stretch of the text it is applied to. |
-| [UnderlineAttribute](../-underline-attribute/README.md) | `class UnderlineAttribute : Attribute`<br>Changes the type of underline on the text it is applied to. |
-| [UnderlineColorAttribute](../-underline-color-attribute/README.md) | `class UnderlineColorAttribute : Attribute`<br>Changes the color of the underline on the text it is applied to. |
-| [WeightAttribute](../-weight-attribute/README.md) | `class WeightAttribute : Attribute`<br>Changes the weight of the text it is applied to. |
+| Name |
+|---|
+| [BackgroundAttribute](../-background-attribute/README.md) |
+| [ColorAttribute](../-color-attribute/README.md) |
+| [FamilyAttribute](../-family-attribute/README.md) |
+| [FeaturesAttribute](../-features-attribute/README.md) |
+| [ItalicAttribute](../-italic-attribute/README.md) |
+| [SizeAttribute](../-size-attribute/README.md) |
+| [StretchAttribute](../-stretch-attribute/README.md) |
+| [UnderlineAttribute](../-underline-attribute/README.md) |
+| [UnderlineColorAttribute](../-underline-color-attribute/README.md) |
+| [WeightAttribute](../-weight-attribute/README.md) |

@@ -38,7 +38,7 @@ Wrapper class for [uiSeparator](../../libui/ui-separator.md)
 
 ### Inheritors
 
-| Name | Summary |
-|---|---|
-| [HorizontalSeparator](../-horizontal-separator/README.md) | `class HorizontalSeparator : `[`Separator`](README.md)<br>Wrapper class for [uiSeparator](../../libui/ui-separator.md) - an horizontal line to visually separate widgets. |
-| [VerticalSeparator](../-vertical-separator/README.md) | `class VerticalSeparator : `[`Separator`](README.md)<br>Wrapper class for [uiSeparator](../../libui/ui-separator.md) - a vertical line to visually separate widgets. |
+| Name |
+|---|
+| [HorizontalSeparator](../-horizontal-separator/README.md) |
+| [VerticalSeparator](../-vertical-separator/README.md) |

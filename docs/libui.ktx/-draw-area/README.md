@@ -49,9 +49,9 @@ Wrapper class for [uiArea](../../libui/ui-area.md) - a canvas you can draw on.
 
 ### Inheritors
 
-| Name | Summary |
-|---|---|
-| [ScrollingArea](../-scrolling-area/README.md) | `class ScrollingArea : `[`DrawArea`](README.md)<br>Wrapper class for [uiArea](../../libui/ui-area.md) - a canvas with horziontal and vertical scrollbars. |
+| Name |
+|---|
+| [ScrollingArea](../-scrolling-area/README.md) |
 
 ### Extensions
 
