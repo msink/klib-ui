@@ -6,11 +6,7 @@
 
 Base class for all objects that have a holder reference to the native C resource(s).
 
-* Allocates one resource during construction,
-  and may allocate some additional resources during operation.
-* Must free all its resource once [dispose](dispose.md) is invoked.
-* [disposed](disposed.md) is a final state of the class, it is not supposed
-  to be used after being disposed.
+<ul><li>Allocates one resource during construction,     and may allocate some additional resources during operation.</li><li>Must free all its resource once [dispose](dispose.md) is invoked.</li><li>[disposed](disposed.md) is a final state of the class, it is not supposed     to be used after being disposed.</li></ul>
 
 ### Constructors
 
@@ -34,15 +30,15 @@ Base class for all objects that have a holder reference to the native C resource
 
 | Name |
 |---|
-| [Attribute](../../libui.ktx.draw/-attribute/README.md) |
-| [AttributedString](../../libui.ktx.draw/-attributed-string/README.md) |
-| [Brush](../../libui.ktx.draw/-brush/README.md) |
 | [Control](../-control/README.md) |
-| [Font](../../libui.ktx.draw/-font/README.md) |
-| [Image](../../libui.ktx.draw/-image/README.md) |
-| [Matrix](../../libui.ktx.draw/-matrix/README.md) |
-| [OpenTypeFeatures](../../libui.ktx.draw/-open-type-features/README.md) |
-| [Path](../../libui.ktx.draw/-path/README.md) |
-| [Stroke](../../libui.ktx.draw/-stroke/README.md) |
 | [Table](../-table/README.md) |
+| [Image](../../libui.ktx.draw/-image/README.md) |
+| [Brush](../../libui.ktx.draw/-brush/README.md) |
+| [Stroke](../../libui.ktx.draw/-stroke/README.md) |
+| [Path](../../libui.ktx.draw/-path/README.md) |
+| [Matrix](../../libui.ktx.draw/-matrix/README.md) |
 | [TextLayout](../../libui.ktx.draw/-text-layout/README.md) |
+| [Font](../../libui.ktx.draw/-font/README.md) |
+| [Attribute](../../libui.ktx.draw/-attribute/README.md) |
+| [OpenTypeFeatures](../../libui.ktx.draw/-open-type-features/README.md) |
+| [AttributedString](../../libui.ktx.draw/-attributed-string/README.md) |

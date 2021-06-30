@@ -34,13 +34,13 @@ Stores information about an attribute in a [AttributedString](../-attributed-str
 
 | Name |
 |---|
-| [BackgroundAttribute](../-background-attribute/README.md) |
-| [ColorAttribute](../-color-attribute/README.md) |
 | [FamilyAttribute](../-family-attribute/README.md) |
-| [FeaturesAttribute](../-features-attribute/README.md) |
-| [ItalicAttribute](../-italic-attribute/README.md) |
 | [SizeAttribute](../-size-attribute/README.md) |
+| [WeightAttribute](../-weight-attribute/README.md) |
+| [ItalicAttribute](../-italic-attribute/README.md) |
 | [StretchAttribute](../-stretch-attribute/README.md) |
+| [ColorAttribute](../-color-attribute/README.md) |
+| [BackgroundAttribute](../-background-attribute/README.md) |
 | [UnderlineAttribute](../-underline-attribute/README.md) |
 | [UnderlineColorAttribute](../-underline-color-attribute/README.md) |
-| [WeightAttribute](../-weight-attribute/README.md) |
+| [FeaturesAttribute](../-features-attribute/README.md) |

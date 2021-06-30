@@ -1,6 +1,70 @@
-$dokka.format:gfm
+$dokka.format:gfm-v1
 $dokka.linkExtension:md
-
-libui
+$dokka.location:libui.ktx.draw////PointingToDeclaration/libui.ktx.draw/README.md
+$dokka.location:libui.ktx.draw/Attribute///PointingToDeclaration/libui.ktx.draw/-attribute/README.md
+$dokka.location:libui.ktx.draw/AttributedString///PointingToDeclaration/libui.ktx.draw/-attributed-string/README.md
+$dokka.location:libui.ktx.draw/BackgroundAttribute///PointingToDeclaration/libui.ktx.draw/-background-attribute/README.md
+$dokka.location:libui.ktx.draw/Brush///PointingToDeclaration/libui.ktx.draw/-brush/README.md
+$dokka.location:libui.ktx.draw/Color///PointingToDeclaration/libui.ktx.draw/-color/README.md
+$dokka.location:libui.ktx.draw/ColorAttribute///PointingToDeclaration/libui.ktx.draw/-color-attribute/README.md
+$dokka.location:libui.ktx.draw/FamilyAttribute///PointingToDeclaration/libui.ktx.draw/-family-attribute/README.md
+$dokka.location:libui.ktx.draw/FeaturesAttribute///PointingToDeclaration/libui.ktx.draw/-features-attribute/README.md
+$dokka.location:libui.ktx.draw/Font///PointingToDeclaration/libui.ktx.draw/-font/README.md
+$dokka.location:libui.ktx.draw/Image///PointingToDeclaration/libui.ktx.draw/-image/README.md
+$dokka.location:libui.ktx.draw/ImageData///PointingToDeclaration/libui.ktx.draw/-image-data/README.md
+$dokka.location:libui.ktx.draw/ItalicAttribute///PointingToDeclaration/libui.ktx.draw/-italic-attribute/README.md
+$dokka.location:libui.ktx.draw/Matrix///PointingToDeclaration/libui.ktx.draw/-matrix/README.md
+$dokka.location:libui.ktx.draw/OpenTypeFeatures///PointingToDeclaration/libui.ktx.draw/-open-type-features/README.md
+$dokka.location:libui.ktx.draw/Path///PointingToDeclaration/libui.ktx.draw/-path/README.md
+$dokka.location:libui.ktx.draw/Point///PointingToDeclaration/libui.ktx.draw/-point/README.md
+$dokka.location:libui.ktx.draw/Size///PointingToDeclaration/libui.ktx.draw/-size/README.md
+$dokka.location:libui.ktx.draw/SizeAttribute///PointingToDeclaration/libui.ktx.draw/-size-attribute/README.md
+$dokka.location:libui.ktx.draw/SizeInt///PointingToDeclaration/libui.ktx.draw/-size-int/README.md
+$dokka.location:libui.ktx.draw/StretchAttribute///PointingToDeclaration/libui.ktx.draw/-stretch-attribute/README.md
+$dokka.location:libui.ktx.draw/Stroke///PointingToDeclaration/libui.ktx.draw/-stroke/README.md
+$dokka.location:libui.ktx.draw/TextLayout///PointingToDeclaration/libui.ktx.draw/-text-layout/README.md
+$dokka.location:libui.ktx.draw/UnderlineAttribute///PointingToDeclaration/libui.ktx.draw/-underline-attribute/README.md
+$dokka.location:libui.ktx.draw/UnderlineColorAttribute///PointingToDeclaration/libui.ktx.draw/-underline-color-attribute/README.md
+$dokka.location:libui.ktx.draw/WeightAttribute///PointingToDeclaration/libui.ktx.draw/-weight-attribute/README.md
+$dokka.location:libui.ktx////PointingToDeclaration/libui.ktx/README.md
+$dokka.location:libui.ktx/Box///PointingToDeclaration/libui.ktx/-box/README.md
+$dokka.location:libui.ktx/Button///PointingToDeclaration/libui.ktx/-button/README.md
+$dokka.location:libui.ktx/Checkbox///PointingToDeclaration/libui.ktx/-checkbox/README.md
+$dokka.location:libui.ktx/ColorButton///PointingToDeclaration/libui.ktx/-color-button/README.md
+$dokka.location:libui.ktx/Combobox///PointingToDeclaration/libui.ktx/-combobox/README.md
+$dokka.location:libui.ktx/Container///PointingToDeclaration/libui.ktx/-container/README.md
+$dokka.location:libui.ktx/Control///PointingToDeclaration/libui.ktx/-control/README.md
+$dokka.location:libui.ktx/DatePicker///PointingToDeclaration/libui.ktx/-date-picker/README.md
+$dokka.location:libui.ktx/DateTimePicker///PointingToDeclaration/libui.ktx/-date-time-picker/README.md
+$dokka.location:libui.ktx/Disposable///PointingToDeclaration/libui.ktx/-disposable/README.md
+$dokka.location:libui.ktx/DrawArea///PointingToDeclaration/libui.ktx/-draw-area/README.md
+$dokka.location:libui.ktx/EditableCombobox///PointingToDeclaration/libui.ktx/-editable-combobox/README.md
+$dokka.location:libui.ktx/FontButton///PointingToDeclaration/libui.ktx/-font-button/README.md
+$dokka.location:libui.ktx/Form///PointingToDeclaration/libui.ktx/-form/README.md
+$dokka.location:libui.ktx/GridPane///PointingToDeclaration/libui.ktx/-grid-pane/README.md
+$dokka.location:libui.ktx/Group///PointingToDeclaration/libui.ktx/-group/README.md
+$dokka.location:libui.ktx/HBox///PointingToDeclaration/libui.ktx/-h-box/README.md
+$dokka.location:libui.ktx/HorizontalSeparator///PointingToDeclaration/libui.ktx/-horizontal-separator/README.md
+$dokka.location:libui.ktx/Label///PointingToDeclaration/libui.ktx/-label/README.md
+$dokka.location:libui.ktx/PasswordField///PointingToDeclaration/libui.ktx/-password-field/README.md
+$dokka.location:libui.ktx/ProgressBar///PointingToDeclaration/libui.ktx/-progress-bar/README.md
+$dokka.location:libui.ktx/RadioButtons///PointingToDeclaration/libui.ktx/-radio-buttons/README.md
+$dokka.location:libui.ktx/ScrollingArea///PointingToDeclaration/libui.ktx/-scrolling-area/README.md
+$dokka.location:libui.ktx/SearchField///PointingToDeclaration/libui.ktx/-search-field/README.md
+$dokka.location:libui.ktx/Separator///PointingToDeclaration/libui.ktx/-separator/README.md
+$dokka.location:libui.ktx/Slider///PointingToDeclaration/libui.ktx/-slider/README.md
+$dokka.location:libui.ktx/Spinbox///PointingToDeclaration/libui.ktx/-spinbox/README.md
+$dokka.location:libui.ktx/TabPane.Page///PointingToDeclaration/libui.ktx/-tab-pane/-page/README.md
+$dokka.location:libui.ktx/TabPane///PointingToDeclaration/libui.ktx/-tab-pane/README.md
+$dokka.location:libui.ktx/Table.TableColumn///PointingToDeclaration/libui.ktx/-table/-table-column/README.md
+$dokka.location:libui.ktx/Table///PointingToDeclaration/libui.ktx/-table/README.md
+$dokka.location:libui.ktx/TableView///PointingToDeclaration/libui.ktx/-table-view/README.md
+$dokka.location:libui.ktx/TextArea///PointingToDeclaration/libui.ktx/-text-area/README.md
+$dokka.location:libui.ktx/TextField///PointingToDeclaration/libui.ktx/-text-field/README.md
+$dokka.location:libui.ktx/TimePicker///PointingToDeclaration/libui.ktx/-time-picker/README.md
+$dokka.location:libui.ktx/VBox///PointingToDeclaration/libui.ktx/-v-box/README.md
+$dokka.location:libui.ktx/VerticalSeparator///PointingToDeclaration/libui.ktx/-vertical-separator/README.md
+$dokka.location:libui.ktx/Window///PointingToDeclaration/libui.ktx/-window/README.md
 libui.ktx
 libui.ktx.draw
+
